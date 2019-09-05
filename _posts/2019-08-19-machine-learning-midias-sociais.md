@@ -379,12 +379,12 @@ Uma outra maneira bastante intuitiva de saber do que um texto se trata é atrav�
 </div>
 
 
-<center>Tweet Negativo</center>
+<center>Tweet Negativo
 <blockquote class="twitter-tweet" data-lang="pt" data-dnt="true" data-theme="light"><p lang="pt" dir="ltr">caralho q vontade de explodir a vivo</p>&mdash; 7 (@brxneiro) <a href="https://twitter.com/brxneiro/status/1143652005006708738?ref_src=twsrc%5Etfw">25 de junho de 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<center>Tweet Positivo</center>
+</center>
+<center>Tweet Positivo
   <blockquote class="twitter-tweet" data-lang="pt" data-dnt="true"><p lang="pt" dir="ltr">Chip da Tim é ótimo man, super recomendo.</p>&mdash; Avassalador 🙈 (@RbSouuza) <a href="https://twitter.com/RbSouuza/status/1140160677572747265?ref_src=twsrc%5Etfw">16 de junho de 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+</center>
 Parece que essas palavras são preditivas mesmo... Olha só alguns exemplos aí em cima. Explodir não era algo tão intuitivo para mim e conseguimos encontrar casos assim graças a aplicação certa de tecnologia.
 
 <div class="row">
@@ -426,11 +426,13 @@ Da mesma forma que para as marcas, calculamos o índice de insatisfação por pr
 
 Por fim quantificamos o percentual de reclamação sobre consumo indevido de dados pelas marcas... A Claro está na lanterna desse Indicador, Nextel no entanto foi o melhor.
 
-<center>Exemplos de Consumo Indevido de Dados</center>
+<center>Exemplos de Consumo Indevido de Dados
 
 <blockquote class="twitter-tweet" data-lang="pt" data-dnt="true"><p lang="pt" dir="ltr">Botei 10 reais de crédito e a claro comeu tudo tmnc😡😡😡</p>&mdash; - A N D R E W❤ (@AndrewRangelll) <a href="https://twitter.com/AndrewRangelll/status/1136481943028154369?ref_src=twsrc%5Etfw">6 de junho de 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-lang="pt" data-dnt="true"><p lang="pt" dir="ltr">Minha mãe sempre querer contratou serviço da claro notícia no meu celular, a claro comeu meus crédito todinho 😢😢</p>&mdash; Vitoria 🌸 (@Anny_vitoria10) <a href="https://twitter.com/Anny_vitoria10/status/1138537055443718144?ref_src=twsrc%5Etfw">11 de junho de 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</center>
 
 ## Conclusões
 
