@@ -444,6 +444,6 @@ Por fim quantificamos o percentual de reclamação sobre consumo indevido de dad
 
 Conseguimos chegar a resultados bastante interessantes nessa análises com relativamente pouco esforço. Graças a aplicação assertiva de técnicas aprendizado de máquina é possível fazer os computadores trabalharem por nós.
 
-Obviamente um modelo desses ainda não está pronto para produção, uma vez que apenas uma métrica de qualidade (acurácia) foi avaliada e ainda com uma performance inadequado para aplicações definitivas. Ainda assim é possível se ter uma idéia de onde é possível chegar com esse tipo de tecnologia.
+Obviamente um modelo desses ainda não está pronto para produção, uma vez que apenas uma métrica de qualidade (acurácia) foi avaliada e ainda com uma performance inadequada para aplicações definitivas. Ainda assim é possível se ter uma idéia de onde é possível chegar com esse tipo de tecnologia.
 
 Diante disso, podemos concluir que vetores de palavras acoplados a classificadores de texto são uma abordagem razoável para se iniciar um projeto de Aprendizado de Máquina considerando grandes volumes de textos.
