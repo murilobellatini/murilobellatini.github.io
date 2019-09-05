@@ -1,5 +1,5 @@
 ---
-title: "Técnicas de Machine Learning para Análise em Mìdias Sociais"
+title: "Técnicas de Machine Learning para Análise em Mídias Sociais"
 date: 2019-08-01
 tags: [machine learning, text mining, word embeddings, data science]
 header:
@@ -39,7 +39,6 @@ Primeiro treinamos um modelo de Vetores de Palavras (Word Embeddings) para agrup
 Além disso, aplicamos um dos Classificadores de Sentimento Evollo para cada uma das palavras para saber quão positiva ou negativa é cada uma delas. Detalhe, esse classificador também foi treinado em textos do Twitter, portanto é uma boa base para iniciar a análise.
 
 <div class="mobileHidden" width="100%">
-<html lang="en">
   
   <head>
     
@@ -118,8 +117,7 @@ Além disso, aplicamos um dos Classificadores de Sentimento Evollo para cada uma
   </body>
 </div>  
 
-<div class="desktopHidden">  
-<html lang="en">
+<div class="desktopHidden" width="100%">
   
   <head>
     
