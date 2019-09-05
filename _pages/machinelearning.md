@@ -1,6 +1,6 @@
 ---
 title: "Machine Learning"
-permalink: /machine-learning/
+permalink: /machinelearning/
 header:
     image: /images/background-wide.jpg
 layout: archive
