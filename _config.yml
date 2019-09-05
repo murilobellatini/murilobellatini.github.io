@@ -131,9 +131,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/bellarus89/"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      # url: "https://instagram.com/bellarus89/"
+    # - label: "LinkedIn"
+    #   icon: "fab fa-fw fa-linkedin"
+    #   # url: "https://instagram.com/bellarus89/"
 
 # Site Footer
 footer:
@@ -286,7 +286,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: ""  
       type: posts
     values:
       layout: single
