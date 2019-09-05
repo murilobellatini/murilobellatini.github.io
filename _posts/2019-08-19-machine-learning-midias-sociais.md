@@ -38,8 +38,7 @@ Primeiro treinamos um modelo de Vetores de Palavras (Word Embeddings) para agrup
 
 Além disso, aplicamos um dos Classificadores de Sentimento Evollo para cada uma das palavras para saber quão positiva ou negativa é cada uma delas. Detalhe, esse classificador também foi treinado em textos do Twitter, portanto é uma boa base para iniciar a análise.
 
-
-<!DOCTYPE html>
+<div class="mobileHidden">
 <html lang="en">
   
   <head>
@@ -117,8 +116,7 @@ Além disso, aplicamos um dos Classificadores de Sentimento Evollo para cada uma
         </script>
     
   </body>
-  
-</html>
+</div>  
 
 Olha só, é possível ver que palavras similares se agruparam. E a análise de sentimento permite constatarmos isso! Veja você mesmo, passando o mouse sobre os círculos roxos (negativos) e amarelos (postivos) para ler a qual palavra se referem. Parece que estamos no caminho certo... Mas e agora?
 
