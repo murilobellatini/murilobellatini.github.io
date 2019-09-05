@@ -35,6 +35,11 @@ def test_function(x,y):
     return z
 ```
 
+SQL code block:
+```sql
+SELECT * FROM tweet WHERE create_at > NOW()
+```
+
 Link: [link](https://evollo.com.br)
 
 Image:
