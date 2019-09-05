@@ -406,4 +406,34 @@ Agora é a hora de generalizar nosso modelo através de Machine Learning Supervi
 
 Além de marcar os tweets conforme os rótulos que definimos acima, criamos alguns indicadores como o índice de insatisfação como a soma dos tweets negativos dividido sobre o total de tweets com opinião. Veja:
 
-$Índice de Insatisfação = sum(x)/sum(x)+sum(y)$
+$$Índice de Insatisfação = sum(x)/sum(x)+sum(y)$$
+
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/29.embed?showlink=false"></iframe>
+
+Veja como a Nextel possui o maior índice de insatisfação dentre as 5 empresas. É a empresa com a maior incidência de tweets negativos, e menor dos positivos... 
+
+O próximo passo é segmentar os tweets dentre produtos conforme os rótulos definidos no Vocabulário. Agrupamos termos similares em 4 tipos. Apesar de 'plano' não ser tão coletivo aos demais, mantivemos aí pois estes tweets não mencionam nenhum serviço, mas trazem uma dimensão interessante de análise.
+
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/17.embed?showlink=false"></iframe>
+
+Parece que os usuários do Twitter gostam mesmo é de falar do seu plano online... O telefone por outro lado não foi tão popular entre eles....
+
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/17.embed?showlink=false"></iframe>
+
+Da mesma forma que para as marcas, calculamos o índice de insatisfação por produto... Plano é o pior de todos e televisão é o melhor. Pelo jeito estão elogiando bastante a programação divulgada!
+
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/33.embed?showlink=false"></iframe>
+
+Por fim quantificamos o percentual de reclamação sobre consumo indevido de dados pelas marcas... A Claro está na lanterna desse Indicador, Nextel no entanto foi o melhor.
+
+Exemplos de Consumo Indevido de Dados
+
+<blockquote class="twitter-tweet" data-lang="pt" data-dnt="true"><p lang="pt" dir="ltr">Botei 10 reais de crédito e a claro comeu tudo tmnc😡😡😡</p>&mdash; - A N D R E W❤ (@AndrewRangelll) <a href="https://twitter.com/AndrewRangelll/status/1136481943028154369?ref_src=twsrc%5Etfw">6 de junho de 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="pt" data-dnt="true"><p lang="pt" dir="ltr">Minha mãe sempre querer contratou serviço da claro notícia no meu celular, a claro comeu meus crédito todinho 😢😢</p>&mdash; Vitoria 🌸 (@Anny_vitoria10) <a href="https://twitter.com/Anny_vitoria10/status/1138537055443718144?ref_src=twsrc%5Etfw">11 de junho de 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## Conclusões
+
+Conseguimos chegar a resultados bastante interessantes nas nossas análises com pouco esforço. Graças a aplicação assertiva de técnicas aprendizado de máquina é possível fazer os computadores trabalharem por nós.
+
+O mesmo conceito de classificação de texto se aplica para qualquer outro tipo de comunicação humana, como em chamadas telefônicas ou mensagens de WhatsApp. Quer saber o que está realmente acontecendo dentro da sua operação de call center, ou nos meios de comunicação sobre a sua empresa? Entre em contato conosco agora mesmo!
