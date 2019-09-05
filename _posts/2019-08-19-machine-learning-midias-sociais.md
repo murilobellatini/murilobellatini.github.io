@@ -3,7 +3,7 @@ title: "Técnicas de Machine Learning para Análise em Mídias Sociais"
 date: 2019-08-01
 tags: [machine learning, text mining, word embeddings, data science]
 header:
-    image: /images/featured-image.jpg
+    image: /images/post1/featured-image.jpg
 excerpt: "Aplicação Prática de Aprendizado de Máquina para Extração de Insights de Publicações no Twitter"
 mathjax: "true"
 ---
