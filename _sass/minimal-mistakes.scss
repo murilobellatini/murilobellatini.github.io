@@ -38,3 +38,15 @@
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
+
+@media only screen AND (max-width: 736px) { // 736px is the iPhone 6+ max 
+    .mobileHidden { // rename to whatever
+      display: none; // doesn't display in the browser.
+    }
+  }
+
+@media only screen AND (min-width: 736px) { // 736px is the iPhone 6+ max 
+.desktopHidden { // rename to whatever
+    display: none; // doesn't display in the browser.
+}
+}
