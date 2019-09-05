@@ -357,10 +357,14 @@ Bem, uma abordagem poderia ser apenas aplicar nosso Classificador de Sentimento 
     
   </body>
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/legenda.png" alt="Legenda">
+<img src="{{ site.url }}{{ site.baseurl }}/images/post1/legenda.png" alt="Legenda">
 
 </div>
 
-
 Conseguimos identificar as palavras mais preditivas para sentimento positivo (Roxo) e negativo (Vermelho) através dessa análise macro! Bem mais intuitivo e prático assim do que lendo os milhares de tweets, não? Veja também como os produtos (Verde) e marcas (Laranja) também se agrupam automaticamente. Notamos um agrupamento de verbalizações sobre Consumo Indevido de Dados / Crédito (Azul). Vamos olhar mais a fundo?
- 
+
+## Nuvems de Palavras
+
+Uma outra maneira bastante intuitiva de saber do que um texto se trata é através de Nuvens de Palavras. Nesse caso agrupamos todos os termos segregados na visualização acima (Vocabulário de Palavras). Aplicamos o tamanho pela similaridade dos termos e as cores por positivo (verde) ou negativo (vermelho)....
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/post1/nuvens_palavras.png" alt="Nuvens de Palavras">
