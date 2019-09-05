@@ -406,11 +406,11 @@ Agora é a hora de generalizar nosso modelo através de Machine Learning Supervi
 
 Além de marcar os tweets conforme os rótulos que definimos acima, criamos alguns indicadores como o índice de insatisfação como a soma dos tweets negativos dividido sobre o total de tweets com opinião. Veja:
 
-$$Índice de Insatisfação = sum(x)/sum(x)+sum(y)$$
+<img src="{{ site.url }}{{ site.baseurl }}/images/post1/formula.png" alt="Fórmula para Índice de Insatisfação">
 
 <iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/29.embed?showlink=false"></iframe>
 
-Veja como a Nextel possui o maior índice de insatisfação dentre as 5 empresas. É a empresa com a maior incidência de tweets negativos, e menor dos positivos... 
+Veja como a Nextel possui o maior índice de insatisfação dentre as 5 empresas. É a empresa com a maior incidência de tweets negativos, e menor dos positivos...
 
 O próximo passo é segmentar os tweets dentre produtos conforme os rótulos definidos no Vocabulário. Agrupamos termos similares em 4 tipos. Apesar de 'plano' não ser tão coletivo aos demais, mantivemos aí pois estes tweets não mencionam nenhum serviço, mas trazem uma dimensão interessante de análise.
 
@@ -418,7 +418,7 @@ O próximo passo é segmentar os tweets dentre produtos conforme os rótulos def
 
 Parece que os usuários do Twitter gostam mesmo é de falar do seu plano online... O telefone por outro lado não foi tão popular entre eles....
 
-<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/17.embed?showlink=false"></iframe>
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/31.embed?showlink=false"></iframe>
 
 Da mesma forma que para as marcas, calculamos o índice de insatisfação por produto... Plano é o pior de todos e televisão é o melhor. Pelo jeito estão elogiando bastante a programação divulgada!
 
