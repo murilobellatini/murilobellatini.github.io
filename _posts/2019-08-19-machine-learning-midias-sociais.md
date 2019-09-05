@@ -380,11 +380,13 @@ Uma outra maneira bastante intuitiva de saber do que um texto se trata é atrav�
 
 <div class="row">
   <div class="column">
-  Palavras Negativas
-  <img src="{{ site.url }}{{ site.baseurl }}/images/post1/nuvem-negativa.png" alt="Nuvens de Palavras">
+  Tweet Negativo
+<center><blockquote class="twitter-tweet" data-lang="pt" data-dnt="true" data-theme="light"><p lang="pt" dir="ltr">caralho q vontade de explodir a vivo</p>&mdash; 7 (@brxneiro) <a href="https://twitter.com/brxneiro/status/1143652005006708738?ref_src=twsrc%5Etfw">25 de junho de 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
   </div>
   <div class="column">
-  Palavras Positivas
-  <img src="{{ site.url }}{{ site.baseurl }}/images/post1/nuvem-positiva.png" alt="Nuvens de Palavras">
+  Tweet Positivo
+  <blockquote class="twitter-tweet" data-lang="pt" data-dnt="true"><p lang="pt" dir="ltr">Chip da Tim é ótimo man, super recomendo.</p>&mdash; Avassalador 🙈 (@RbSouuza) <a href="https://twitter.com/RbSouuza/status/1140160677572747265?ref_src=twsrc%5Etfw">16 de junho de 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
 </div>
+
+
