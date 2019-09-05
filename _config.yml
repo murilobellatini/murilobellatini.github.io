@@ -110,7 +110,7 @@ author:
   name             : "Murilo Bellatini"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Science Portfolio"
-  location         : "São Paulo, SP - Brasil"
+  location         : "Sao Paulo, SP"
   email            :
   links:
     - label: "Email"
@@ -130,10 +130,10 @@ author:
       # url: "https://github.com/murilobellatini"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/bellarus89/"
+      url: "https://instagram.com/bellarus89"
     # - label: "LinkedIn"
     #   icon: "fab fa-fw fa-linkedin"
-    #   # url: "https://instagram.com/bellarus89/"
+    #   # url: "https://instagram.com/bellarus89"
 
 # Site Footer
 footer:
