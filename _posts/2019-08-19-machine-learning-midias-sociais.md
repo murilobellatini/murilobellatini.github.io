@@ -368,13 +368,23 @@ Conseguimos identificar as palavras mais preditivas para sentimento positivo (Ro
 Uma outra maneira bastante intuitiva de saber do que um texto se trata é através de Nuvens de Palavras. Nesse caso agrupamos todos os termos segregados na visualização acima (Vocabulário de Palavras). Aplicamos o tamanho pela similaridade dos termos e as cores por positivo (verde) ou negativo (vermelho)....
 
 <div class="row">
-
   <div class="column">
-  ### Palavras Negativas
+  Palavras Negativas
   <img src="{{ site.url }}{{ site.baseurl }}/images/post1/nuvem-negativa.png" alt="Nuvens de Palavras">
   </div>
   <div class="column">
-  ### Palavras Positivas
+  Palavras Positivas
+  <img src="{{ site.url }}{{ site.baseurl }}/images/post1/nuvem-positiva.png" alt="Nuvens de Palavras">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+  Palavras Negativas
+  <img src="{{ site.url }}{{ site.baseurl }}/images/post1/nuvem-negativa.png" alt="Nuvens de Palavras">
+  </div>
+  <div class="column">
+  Palavras Positivas
   <img src="{{ site.url }}{{ site.baseurl }}/images/post1/nuvem-positiva.png" alt="Nuvens de Palavras">
   </div>
 </div>
