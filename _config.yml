@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Murilo Bellatini"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Engenheiro Mecânico com MBA e entusiasta por Tecnologia & Ciência de Dados"
   location         : "São Paulo, SP"
   email            :
