@@ -385,7 +385,6 @@ Uma outra maneira bastante intuitiva de saber do que um texto se trata é atrav�
 <center>Tweet Positivo</center>
   <blockquote class="twitter-tweet" data-lang="pt" data-dnt="true"><p lang="pt" dir="ltr">Chip da Tim é ótimo man, super recomendo.</p>&mdash; Avassalador 🙈 (@RbSouuza) <a href="https://twitter.com/RbSouuza/status/1140160677572747265?ref_src=twsrc%5Etfw">16 de junho de 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
 Parece que essas palavras são preditivas mesmo... Olha só alguns exemplos aí em cima. Explodir não era algo tão intuitivo para mim e conseguimos encontrar casos assim graças a aplicação certa de tecnologia.
 
 <div class="row">
@@ -399,3 +398,12 @@ Parece que essas palavras são preditivas mesmo... Olha só alguns exemplos aí 
   </div>
 </div>
 
+Mais algumas nuvens para confirmar pela nossa intuição se os termos realmente estão sendo capturados corretamente.
+
+## Aplicação de Machine Learning Supervisionado
+
+Agora é a hora de generalizar nosso modelo através de Machine Learning Supervisionado. Partimos da premissa que qualquer tweet contendo algum dos termos rotulados acima pertence a sua categoria. Por exemplo, tweet com palavra positiva é positivo. E então aplicamos um algorítmo probabilístico simples, eficaz e tradicional do ramo de Machine Learning para o treinamento, o famoso Naive Bayes. Obtivemos em média uma assertividade de 75% com baixo esforço. Vejam agora os insights que encontramos!
+
+Além de marcar os tweets conforme os rótulos que definimos acima, criamos alguns indicadores como o índice de insatisfação como a soma dos tweets negativos dividido sobre o total de tweets com opinião. Veja:
+
+$Índice de Insatisfação = sum(x)/sum(x)+sum(y)$
