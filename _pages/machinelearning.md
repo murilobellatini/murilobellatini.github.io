@@ -3,7 +3,6 @@ title: "Machine Learning"
 permalink: /machinelearning/
 header:
     image: /images/background-wide.jpg
-layout: archive
 ---
 
 {% include base_path %}
