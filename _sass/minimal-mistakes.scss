@@ -53,13 +53,10 @@
 
 .row {
     display: flex;
+    padding-top: 20;
+    padding-bottom: 20
 }
   
 .column {
     flex: 50%;
-}
-
-.img{
-    padding-top: 20;
-    padding-bottom: 20
 }
