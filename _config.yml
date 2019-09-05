@@ -109,8 +109,8 @@ analytics:
 author:
   name             : "Murilo Bellatini"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Fundador Start-Up Evollo. Especialista em Inteligência Artificial e Text Mining. Engenheiro Mecânico graduado pela UNICAMP. MBA Produto & Serviços pela USP-SP."
-  location         : "Somewhere"
+  bio              : "Engenheiro Mecânico com MBA e entusiasta por Tecnologia & Ciência de Dados"
+  location         : "São Paulo, SP"
   email            :
   links:
     - label: "Email"
