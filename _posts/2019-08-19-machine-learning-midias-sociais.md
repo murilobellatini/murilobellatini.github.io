@@ -356,9 +356,11 @@ Bem, uma abordagem poderia ser apenas aplicar nosso Classificador de Sentimento 
         </script>
     
   </body>
-</div>
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/legenda.png" alt="Legenda">
+
+</div>
+
 
 Conseguimos identificar as palavras mais preditivas para sentimento positivo (Roxo) e negativo (Vermelho) através dessa análise macro! Bem mais intuitivo e prático assim do que lendo os milhares de tweets, não? Veja também como os produtos (Verde) e marcas (Laranja) também se agrupam automaticamente. Notamos um agrupamento de verbalizações sobre Consumo Indevido de Dados / Crédito (Azul). Vamos olhar mais a fundo?
  
