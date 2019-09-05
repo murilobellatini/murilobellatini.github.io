@@ -12,7 +12,7 @@ mathjax: "true"
 
 Você tem ideia de quanto tempo leva para se ler 42.619 tweets? E para anotar a opinião expressada em cada um deles? Eu te digo, 2 dias, 8 horas e 53 minutos, isso se você não parar para comer, nem dormir, ou muito menos dar aquela olhadinha sagrada no celular.... E imagine ainda se durante a leitura você percebesse que está anotando errado pelo cansaço e precisa começar tudo de novo... Ou ainda, aparecem mais 100 mil tweets novos para análise. Não parece muito prático, não?
 
-Pois bem, é exatamente isso que propomos resolver com nossa publicação de hoje. Mas ao invés de realizar essa leitura manualmente, nossa abordagem para resolver o problema foi fazer os computadores Evollo lerem o material por nós. Utilizando o estado da arte de técnicas de Aprendizado de Máquina para o Text Mining nesses mais de 42 mil tweets sobre as principais empresas de Telecom, nós extraímos os seguintes insights:
+Pois bem, é exatamente isso que proponho resolver com essa publicação de hoje. Mas ao invés de realizar essa leitura manualmente, minha abordagem para resolver o problema foi fazer meu computador ler o material por mim. Utilizando técnicas de Aprendizado de Máquina para o Text Mining nesses mais de 42 mil tweets sobre as principais empresas de Telecom, consegui extrair os seguintes insights:
 
 * Nextel é a empresa com maior índice de insatisfação do mercado brasileiro de Telecom *
 * Internet é o produto mais reclamado e televisão fica na última posição *
@@ -20,7 +20,7 @@ Pois bem, é exatamente isso que propomos resolver com nossa publicação de hoj
 
 *\* Insights foram extraídos do Twitter apenas e representam uma abstração da opinião do público na amostra apresentada. Qualquer generalização proveniente deste estudo deve ser avaliada com maior critério para tomada de decisões no mundo de negócios.*
 
-Esses são alguns exemplos do que é possível analisar com a dose certa de tecnologia. Mesmo com os recurso escassos para aplicação de mineração de textos em português, nós nos propomos ao desafio e abaixo explicamos como chegamos a nossas conclusões. Vamos em frente!
+Esses são alguns exemplos do que é possível analisar com a dose certa de tecnologia. Mesmo com os recurso escassos para aplicação de mineração de textos em português, me propus ao desafio e abaixo explico como cheguei a estas conclusões conclusões. Vamos em frente!
 
 ## Detalhamento da Amostra
 
@@ -28,15 +28,15 @@ Foram extraídos 42,619 tweets durante 6 semanas entre Junho-Julho desse ano (20
 
 <iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/27.embed?showlink=false"></iframe>
 
-Pois bem... A Vivo está entre as empresas mais populares no Twitter e a Nextel fica por último. Será que isso é bom ou ruim? 
+Pois bem... A Vivo está entre as empresas mais populares no Twitter e a Nextel fica por último. Será que isso é bom ou ruim?
 
 ## Análise Exploratória dos Dados com Deep Learning
 
-E como fazer para saber o que está acontecendo nessa imensidão de dados? Nossa primeira abordagem é aplicar algumas técnicas de Deep Learning e Aprendizado de Máquina Supervisionado. 
+E como fazer para saber o que está acontecendo nessa imensidão de dados? A primeira abordagem é aplicar algumas técnicas de Deep Learning e Aprendizado de Máquina Supervisionado.
 
-Primeiro treinamos um modelo de Vetores de Palavras (Word Embeddings) para agrupar aquelas que acontecem no mesmo contexto. Esse algorítmo realiza a leitura de todos os textos e transforma cada palavra em um vetor de centenas de dimensões. Com o treinamento as palavras do mesmo contexto se aproximam e as demais se distanciam. Depois de reduzir a dimensionalidade desses vetores para duas, conseguimos torná-los visíveis ao olho nu e o resultado está logo abaixo.
+Primeiro treinei um modelo de Vetores de Palavras (Word Embeddings) para agrupar aquelas que acontecem no mesmo contexto. Esse algorítmo realiza a leitura de todos os textos e transforma cada palavra em um vetor de centenas de dimensões. Com o treinamento as palavras do mesmo contexto se aproximam e as demais se distanciam. Depois de reduzir a dimensionalidade desses vetores para duas, conseguimos torná-los visíveis ao olho nu e o resultado está logo abaixo.
 
-Além disso, aplicamos um dos Classificadores de Sentimento Evollo para cada uma das palavras para saber quão positiva ou negativa é cada uma delas. Detalhe, esse classificador também foi treinado em textos do Twitter, portanto é uma boa base para iniciar a análise.
+Além disso, aplicamos um dos meus Classificadores de Sentimento pré-treinados para cada uma das palavras para saber quão positiva ou negativa é cada uma delas. Detalhe, esse classificador também foi treinado em textos do Twitter, portanto é uma boa base para iniciar a análise.
 
 <div class="mobileHidden" width="100%">
   
@@ -408,7 +408,7 @@ Mais algumas nuvens para confirmar pela nossa intuição se os termos realmente 
 
 ## Aplicação de Machine Learning Supervisionado
 
-Agora é a hora de generalizar nosso modelo através de Machine Learning Supervisionado. Partimos da premissa que qualquer tweet contendo algum dos termos rotulados acima pertence a sua categoria. Por exemplo, tweet com palavra positiva é positivo. E então aplicamos um algorítmo probabilístico simples, eficaz e tradicional do ramo de Machine Learning para o treinamento, o famoso Naive Bayes. Obtivemos em média uma assertividade de 75% com baixo esforço. Vejam agora os insights que encontramos!
+Agora é a hora de generalizar nosso modelo através de Machine Learning Supervisionado. Partimos da premissa que qualquer tweet contendo algum dos termos rotulados acima pertence a sua categoria. Por exemplo, tweet com palavra positiva é positivo. E então aplicamos um algorítmo probabilístico simples, eficaz e tradicional do ramo de Machine Learning para o treinamento, o famoso Naive Bayes. Obtive em média uma assertividade de 75% com baixo esforço. Vejam agora os insights que encontramos!
 
 Além de marcar os tweets conforme os rótulos que definimos acima, criamos alguns indicadores como o índice de insatisfação como a soma dos tweets negativos dividido sobre o total de tweets com opinião. Veja:
 
@@ -418,7 +418,7 @@ Além de marcar os tweets conforme os rótulos que definimos acima, criamos algu
 
 Veja como a Nextel possui o maior índice de insatisfação dentre as 5 empresas. É a empresa com a maior incidência de tweets negativos, e menor dos positivos...
 
-O próximo passo é segmentar os tweets dentre produtos conforme os rótulos definidos no Vocabulário. Agrupamos termos similares em 4 tipos. Apesar de 'plano' não ser tão coletivo aos demais, mantivemos aí pois estes tweets não mencionam nenhum serviço, mas trazem uma dimensão interessante de análise.
+O próximo passo é segmentar os tweets dentre produtos conforme os rótulos definidos no Vocabulário. Agrupei termos similares em 4 tipos. Apesar de 'plano' não ser tão coletivo aos demais, mantivemos aí pois estes tweets não mencionam nenhum serviço, mas trazem uma dimensão interessante de análise.
 
 <iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/17.embed?showlink=false"></iframe>
 
@@ -442,6 +442,8 @@ Por fim quantificamos o percentual de reclamação sobre consumo indevido de dad
 
 ## Conclusões
 
-Conseguimos chegar a resultados bastante interessantes nas nossas análises com pouco esforço. Graças a aplicação assertiva de técnicas aprendizado de máquina é possível fazer os computadores trabalharem por nós.
+Conseguimos chegar a resultados bastante interessantes nessa análises com relativamente pouco esforço. Graças a aplicação assertiva de técnicas aprendizado de máquina é possível fazer os computadores trabalharem por nós.
 
-O mesmo conceito de classificação de texto se aplica para qualquer outro tipo de comunicação humana, como em chamadas telefônicas ou mensagens de WhatsApp. Quer saber o que está realmente acontecendo dentro da sua operação de call center, ou nos meios de comunicação sobre a sua empresa? Entre em contato conosco agora mesmo!
+Obviamente um modelo desses ainda não está pronto para produção, uma vez que apenas uma métrica de qualidade (acurácia) foi avaliada e ainda com uma performance inadequado para aplicações definitivas. Ainda assim é possível se ter uma idéia de onde é possível chegar com esse tipo de tecnologia.
+
+Diante disso, podemos concluir que vetores de palavras acoplados a classificadores de texto são uma abordagem razoável para se iniciar um projeto de Aprendizado de Máquina considerando grandes volumes de textos.
