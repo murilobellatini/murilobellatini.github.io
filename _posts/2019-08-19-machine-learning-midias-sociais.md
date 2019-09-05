@@ -389,11 +389,11 @@ Parece que essas palavras são preditivas mesmo... Olha só alguns exemplos aí 
 
 <div class="row">
   <div class="column">
-  Produtos
+  <center>Produtos</center>
   <img src="{{ site.url }}{{ site.baseurl }}/images/post1/nuvem-produtos.png" alt="Nuvens de Palavras - Produtos">
   </div>
   <div class="column">
-  Consumo Indevido de Dados
+  <center>Consumo Indevido de Dados</center>
   <img src="{{ site.url }}{{ site.baseurl }}/images/post1/nuvem-consumo-indevido.png" alt="Nuvens de Palavras - Consumo Indevido de Dados">
   </div>
 </div>
@@ -426,7 +426,7 @@ Da mesma forma que para as marcas, calculamos o índice de insatisfação por pr
 
 Por fim quantificamos o percentual de reclamação sobre consumo indevido de dados pelas marcas... A Claro está na lanterna desse Indicador, Nextel no entanto foi o melhor.
 
-Exemplos de Consumo Indevido de Dados
+<center>Exemplos de Consumo Indevido de Dados</center>
 
 <blockquote class="twitter-tweet" data-lang="pt" data-dnt="true"><p lang="pt" dir="ltr">Botei 10 reais de crédito e a claro comeu tudo tmnc😡😡😡</p>&mdash; - A N D R E W❤ (@AndrewRangelll) <a href="https://twitter.com/AndrewRangelll/status/1136481943028154369?ref_src=twsrc%5Etfw">6 de junho de 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
