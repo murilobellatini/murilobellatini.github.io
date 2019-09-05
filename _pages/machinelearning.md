@@ -1,10 +1,9 @@
 ---
-layout: archive
+title: "Machine Learning"
 permalink: /machine-learning/
-title: "Machine Learning by Tags"
-author_profile: true
 header:
     image: /images/background-wide.jpg
+layout: archive
 ---
 
 {% include base_path %}
