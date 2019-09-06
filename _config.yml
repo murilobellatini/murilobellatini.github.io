@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Murilo Bellatini"
   avatar           : "/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Engineer, Master in Products & Services and self-taught Data Scientist" # "Engenheiro pós-graduado, tech lover e estusiasta por Ciência de Dados"
+  bio              : "Engineer, Master in Products & Services a Self-taught Data Scientist" # "Engenheiro pós-graduado, tech lover e estusiasta por Ciência de Dados"
   location         : "São Paulo, SP - Brazil"
   email            :
   links:
