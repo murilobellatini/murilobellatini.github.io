@@ -20,7 +20,7 @@ title                    : "Data Science Portfolio - Murilo Bellatini"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Murilo Bellatini"
-description              : "My Data Science Portifolio"
+description              : "Engineer, Master in Products & Services and self-taught Data Scientist - My Portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Murilo Bellatini"
   avatar           : "/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Engineer, Master in Products & Services and Self-taught Data Scientist" # "Engenheiro pós-graduado, tech lover e estusiasta por Ciência de Dados"
+  bio              : "Engineer, Master in Products & Services and self-taught Data Scientist" # "Engenheiro pós-graduado, tech lover e estusiasta por Ciência de Dados"
   location         : "São Paulo, SP - Brazil"
   email            :
   links:
