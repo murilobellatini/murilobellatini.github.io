@@ -7,7 +7,7 @@ header:
 
 I've always been fascinated with Technology due to its magic to improve people's lives in a continuous and infinite pace. That's why I studied Engineering, got my MBA on Products & Services and now study Data Science & Artificial Intelligence.
 
-Professionally I've been used to work with on data-oriented problems my whole career, going from Prescriptive Modelling on Automotive segment for super cars (believe it or not!) until Social Media & Speech Analytics for Business Insight Generation.
+Professionally I've been used to work on data-oriented problems my whole career, going from Prescriptive Modelling on Automotive segment for super cars (believe it or not!) until Social Media & Speech Analytics for Business Insight Generation.
 
 My current data toolkit covers the whole Machine Learning pipeline with Data Collection, Wrangling, Cleaning, Visualization, Predictive Model Training & Testing — usually in Python. My areas of greatest interest tackle unstructured data problems such as Natural Language Processing and Speech Recognition.
 
