@@ -20,7 +20,7 @@ title                    : "Data Science Portfolio - Murilo Bellatini"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Murilo Bellatini"
-description              : "Engineer, Master in Products & Services and self-taught Data Scientist - My Portfolio"
+description              : "My Data Science Portifolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
