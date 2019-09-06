@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Murilo Bellatini"
   avatar           : "/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Engineer / Master in Products & Services / Self-taught Data Scientist" # "Engenheiro pós-graduado, tech lover e estusiasta por Ciência de Dados"
+  bio              : "Engineer, Master in Products & Services and Self-taught Data Scientist" # "Engenheiro pós-graduado, tech lover e estusiasta por Ciência de Dados"
   location         : "São Paulo, SP - Brazil"
   email            :
   links:
@@ -117,7 +117,7 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:murilobell@gmail.com
     - label: "Website"
-      icon: "/images/bio-photo.png"
+      icon: "fas fa-fw fa-link"
       url: "https://evollo.com.br"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
