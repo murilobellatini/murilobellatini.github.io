@@ -17,8 +17,8 @@ Você tem ideia de quanto tempo leva para se ler 42.619 tweets? E para anotar a 
 Pois bem, é exatamente isso que proponho resolver com essa publicação de hoje. Mas ao invés de realizar essa leitura manualmente, minha abordagem para resolver o problema foi fazer meu computador ler o material por mim. Utilizando técnicas de Aprendizado de Máquina para o Text Mining nesses mais de 42 mil tweets sobre as principais empresas de Telecom, consegui extrair os seguintes insights:
 
 * Nextel apresentou maior índice de insatisfação para amostra analisada *
-* Internet é o produto mais reclamado e televisão fica na última posição *
-* Claro é a empresa com mais menções sobre consumo indevido de dados / créditos *
+* Internet foi o produto mais reclamado e televisão fica na última posição *
+* Claro foi a empresa com mais menções sobre consumo indevido de dados / créditos *
 
 *\* Insights foram extraídos do Twitter apenas e representam uma abstração da opinião do público na amostra apresentada. Qualquer generalização proveniente deste estudo deve ser avaliada com maior critério para tomada de decisões no mundo de negócios.*
 
