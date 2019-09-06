@@ -16,7 +16,7 @@ Você tem ideia de quanto tempo leva para se ler 42.619 tweets? E para anotar a 
 
 Pois bem, é exatamente isso que proponho resolver com essa publicação de hoje. Mas ao invés de realizar essa leitura manualmente, minha abordagem para resolver o problema foi fazer meu computador ler o material por mim. Utilizando técnicas de Aprendizado de Máquina para o Text Mining nesses mais de 42 mil tweets sobre as principais empresas de Telecom, consegui extrair os seguintes insights:
 
-* Nextel é a empresa com maior índice de insatisfação do mercado brasileiro de Telecom *
+* Nextel apresentou maior índice de insatisfação para amostra analisada *
 * Internet é o produto mais reclamado e televisão fica na última posição *
 * Claro é a empresa com mais menções sobre consumo indevido de dados / créditos *
 
