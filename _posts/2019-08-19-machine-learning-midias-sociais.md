@@ -10,7 +10,7 @@ mathjax: "true"
 
 *\* The post below is in Portuguese in order to attend a more coherent analysis... But don't you worry, a similar content in English is coming out soon!*
 
-## Aplicação Prática de Deep Learning e Aprendizado de Máquina para Extração de Insights em Publicações no Twitter
+## Aplicação Prática Aprendizado de Máquina para Extração de Insights em Publicações no Twitter
 
 Você tem ideia de quanto tempo leva para se ler 42.619 tweets? E para anotar a opinião expressada em cada um deles? Eu te digo, 2 dias, 8 horas e 53 minutos, isso se você não parar para comer, nem dormir, ou muito menos dar aquela olhadinha sagrada no celular.... E imagine ainda se durante a leitura você percebesse que está anotando errado pelo cansaço e precisa começar tudo de novo... Ou ainda, aparecem mais 100 mil tweets novos para análise. Não parece muito prático, não?
 
