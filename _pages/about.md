@@ -5,13 +5,13 @@ header:
     image: /images/background-wide.jpg
 ---
 
-I've always been fascinated with Technology due to its magic to improve people's lives in a continuous and infinite pace. That's why I studied Engineering, got my MBA on Products & Services and now study *Data Science* & *Artificial Intelligence*.
+I've always been fascinated with Technology due to its magic to improve people's lives in a continuous and infinite pace. That's why I studied Engineering, got my MBA on Products & Services and now study **Data Science** & **Artificial Intelligence**.
 
-Professionally, I'm used to face data-oriented problems, going from *Prescriptive Modelling* on Automotive segment for super cars (believe it or not!) until *Social Media & Speech Analytics* for *Business Insight Generation*, especially regarding *Unsupervised Deep Learning*.
+Professionally, I'm used to face data-oriented problems, going from **Prescriptive Modelling** on Automotive segment for super cars (believe it or not!) until **Social Media & Speech Analytics** for **Business Insight Generation**, especially regarding **Unsupervised Deep Learning**.
 
-My current data toolkit covers the whole *Machine Learning Pipeline* with Data Collection, Wrangling, Cleaning, Visualization, *Predictive Model Training & Testing* — in *Python*. Currently, the areas of greatest interest to me tackle unstructured data problems such as Natural Language Processing and Speech Recognition.
+My current data toolkit covers the whole **Machine Learning Pipeline** with Data Collection, Wrangling, Cleaning, Visualization, **Predictive Model Training & Testing** — in **Python**. Currently, the areas of greatest interest to me tackle unstructured data problems such as Natural Language Processing and Speech Recognition.
 
-My main goal is to ease the burden of Decision Making in every aspect of our lives through *intelligent data-driven systems*.
+My main goal is to ease the burden of Decision Making in every aspect of our lives through **intelligent data-driven systems**.
 
 <!-- My vision is that through Artificial Intelligence it is possible to free mankind from work by making all resources infinite. That's why my goal is to 
 
