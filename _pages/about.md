@@ -5,7 +5,7 @@ header:
     image: /images/background-wide.jpg
 ---
 
-I've always been fascinated with Technology due to its magic to improve people's life in a continuous & infinite pace. That's why I studied Engineering, got my MBA on Products & Services and I'm now studing Data Science & Artificial Intelligence.
+I've always been fascinated with Technology due to its magic to improve people's lives in a continuous & infinite pace. That's why I studied Engineering, got my MBA on Products & Services and I'm now studing Data Science & Artificial Intelligence.
 
 Professionally I've been used to work with on data-oriented problems, going from Prescriptive Modelling on Automotive segment for supercars (believe it or not!) until Social Media & Speech Analytics for Business Insight Generation.
 
