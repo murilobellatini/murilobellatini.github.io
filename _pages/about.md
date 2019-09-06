@@ -11,7 +11,7 @@ Professionally I've been used to work on data-oriented problems my whole career,
 
 My current data toolkit covers the whole Machine Learning pipeline with Data Collection, Wrangling, Cleaning, Visualization, Predictive Model Training & Testing — usually in Python. Currently, the areas of greatest interest to me tackle unstructured data problems such as Natural Language Processing and Speech Recognition.
 
-My main goal is to ease the burden of Decision Making in every aspect of our lives through intelligent data-driven models.
+My main goal is to ease the burden of Decision Making in every aspect of our lives through intelligent data-driven systems.
 
 <!-- My vision is that through Artificial Intelligence it is possible to free mankind from work by making all resources infinite. That's why my goal is to 
 
