@@ -1,5 +1,5 @@
 ---
-title: "Sobre mim"
+title: "About"
 permalink: /about/
 header:
     image: /images/background-wide.jpg
