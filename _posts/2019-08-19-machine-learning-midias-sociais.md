@@ -1,12 +1,14 @@
 ---
-title: "Técnicas de Machine Learning para Análise em Mídias Sociais"
+title: "Machine Learning Techniques for Social Medial Analytics in Portuguese"
 date: 2019-08-01
 tags: [in-depth analysis]
 header:
     image: /images/post1/featured-image.jpg
-excerpt: "Aplicação prática de Aprendizado de Máquina para extração de insights a partir de publicações no Twitter"
+excerpt: "Practical application of Machin Learninge techniques for Business Insight Creation from tweets in Portuguese"
 mathjax: "true"
 ---
+
+*\* The post below is in Portuguese in order to attend a more coherent analsyis... But don't you worry, a similar analysis in English comming out soon!*
 
 ## Aplicação Prática de Deep Learning e Aprendizado de Máquina para Extração de Insights em Publicações no Twitter
 
