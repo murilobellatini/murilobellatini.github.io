@@ -15,12 +15,12 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "pt-BR"
+locale                   : "en-US"
 title                    : "Data Science Portfolio - Murilo Bellatini"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Murilo Bellatini"
-description              : "Meu portifólio de Ciência de Dados"
+description              : "My Data Science Portifolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -110,7 +110,7 @@ author:
   name             : "Murilo Bellatini"
   avatar           : "/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Engineer | Master in Products & Services | Self-taught Data Scientist" # "Engenheiro pós-graduado, tech lover e estusiasta por Ciência de Dados"
-  location         : "São Paulo, SP"
+  location         : "São Paulo, SP - Brazil"
   email            :
   links:
     - label: "Email"
