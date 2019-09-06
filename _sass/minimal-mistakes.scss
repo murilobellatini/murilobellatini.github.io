@@ -39,6 +39,7 @@
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
 
+/* Tags for hidding objects on mobile or desktop */
 @media only screen AND (max-width: 736px) { // 736px is the iPhone 6+ max 
     .mobileHidden { // rename to whatever
       display: none; // doesn't display in the browser.
@@ -51,10 +52,53 @@
 }
 }
 
+/* Double column without boostrap... :( */
 .row {
     display: flex;
 }
   
 .column {
     flex: 50%;
+}
+
+/* Code for scroll percentage*/
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #E8E4E4;
+      font-family: 'Oswald', sans-serif;
+
+}
+#scroll-percent {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+#percentage-value {
+  position: fixed;
+  top: 75%;
+  left: 95%;
+  transform: translateX(-50%);
+  height: 150px;
+  width: 150px;
+  color: #FB3C3F;
+  background-color: white;
+  text-align: center;
+  line-height: 150px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 8px 2px #FB3C3F, -1px -1px 8px 2px #FB3C3F; 
+  font-size: 3em;
+  z-index: 1;
+}
+
+[data-scrollPercentage] .percentage {
+  display: inline-block;
+  background-color: #FB3C3F;
+  height: 6px;
+        width: 0;
 }

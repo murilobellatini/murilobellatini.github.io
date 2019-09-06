@@ -8,6 +8,14 @@ excerpt: "Practical application of Machine Learning techniques for Business Insi
 mathjax: "true"
 ---
 
+<!-- Hard-coded Java Script Scroll Percentage -->
+<div id="scroll-percent" data-scrollPercentage><div class="percentage">&nbsp;</div></div>
+<div id="percentage-value"></div>
+  <div style="height: 4000px;">
+  </div>
+
+  <script  src="function.js"></script>
+
 *\* The post below is in Portuguese in order to attend a more coherent analysis... But don't you worry, a similar content in English is coming out soon!*
 
 ## Aplicação Prática de Deep Learning e Aprendizado de Máquina para Extração de Insights em Publicações no Twitter
