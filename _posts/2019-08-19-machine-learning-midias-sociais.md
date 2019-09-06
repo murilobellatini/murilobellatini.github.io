@@ -4,7 +4,7 @@ date: 2019-08-01
 tags: [in-depth analysis]
 header:
     image: /images/post1/featured-image.jpg
-excerpt: "Practical application of Machin Learninge techniques for Business Insight Creation from tweets in Portuguese"
+excerpt: "Practical application of Machine Learning techniques for Business Insight Creation from tweets in Portuguese"
 mathjax: "true"
 ---
 
