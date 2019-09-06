@@ -8,7 +8,7 @@ excerpt: "Practical application of Machine Learning techniques for Business Insi
 mathjax: "true"
 ---
 
-*\* The post below is in Portuguese in order to attend a more coherent analysis... But don't you worry, a similar analysis in English comming out soon!*
+*\* The post below is in Portuguese in order to attend a more coherent analysis... But don't you worry, a similar content in English is coming out soon!*
 
 ## Aplicação Prática de Deep Learning e Aprendizado de Máquina para Extração de Insights em Publicações no Twitter
 
