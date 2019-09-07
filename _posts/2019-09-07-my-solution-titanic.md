@@ -1,5 +1,5 @@
 ---
-title: "My Solution to Titanic Classification Problem"
+title: "My Solution to the Titanic Classification Problem"
 date: 2019-09-07
 tags: [classification problem]
 header:
