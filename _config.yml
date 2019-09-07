@@ -132,7 +132,7 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:murilobell@gmail.com
-      - label: "Instagram"
+    - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/bellarus89"
 
