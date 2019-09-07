@@ -113,12 +113,13 @@ author:
   location         : "São Paulo, SP - Brazil"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:murilobell@gmail.com
+
     - label: "Kaggle"
       icon: "fab fa-fw fa-kaggle"
       url: "https://www.kaggle.com/mbeliu"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/murilo-bellatini/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/beliu89/"
@@ -128,12 +129,13 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/murilobellatini"
-    - label: "Instagram"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:murilobell@gmail.com
+      - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/bellarus89"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/murilo-bellatini/"
+
 
 # Site Footer
 footer:
