@@ -116,9 +116,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:murilobell@gmail.com
-    - label: "Website"
+    - label: "Kaggle"
       icon: "fas fa-fw fa-link"
-      url: "https://evollo.com.br"
+      url: "https://www.kaggle.com/mbeliu"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/beliu89/"
