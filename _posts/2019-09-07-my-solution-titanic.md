@@ -8,4 +8,4 @@ excerpt: "My walkthrough solution for the Titanic Classification Problem from Ka
 mathjax: "true"
 ---
 
-Soon the main insights shall be presented in this post. In the meanwhile feel free the check and leave a comment at the source notebook here: https://www.kaggle.com/mbeliu/walkthrough-solution-to-titanic-competition/.
+The main insights shall soon be presented in this post. In the meanwhile feel free the check and leave a comment at the source notebook [here at Kaggle](https://www.kaggle.com/mbeliu/walkthrough-solution-to-titanic-competition/).
