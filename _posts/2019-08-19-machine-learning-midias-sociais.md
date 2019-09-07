@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning Techniques for Social Medial Analytics in Portuguese"
 date: 2019-08-01
-tags: [in-depth analysis]
+tags: [natural language processing]
 header:
     image: /images/post1/featured-image.jpg
 excerpt: "Practical application of Machine Learning techniques for Business Insight Generation from tweets in Portuguese"
