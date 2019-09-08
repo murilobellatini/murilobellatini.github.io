@@ -9,7 +9,7 @@ I've always been fascinated with Technology due to its magic to improve people's
 
 Professionally, I'm used to face data-oriented problems, going from **Prescriptive Modelling** on Automotive segment for super cars (believe it or not!) until **Social Media & Speech Analytics** for **Business Insight Generation**.
 
-My data toolkit covers the whole **Machine Learning Pipeline** with Data Collection, Wrangling, Cleaning, Visualization, Feature Engineering, **Predictive Modelling & Evaluation**, Clustering and Dimensionality Reduction in **Python**. Currently, the areas of greatest interest to me tackle unstructured data problems such as Natural Language Processing and Speech Recognition, especially regarding **Unsupervised Deep Learning**.
+My data toolkit covers the whole **Machine Learning Pipeline** with Data Collection, Wrangling, Cleaning, Visualization, Feature Engineering, **Predictive Modelling & Evaluation** in **Python**. Currently, the areas of greatest interest to me tackle unstructured data problems such as Natural Language Processing and Speech Recognition, especially regarding **Unsupervised Deep Learning**.
 
 My main goal is to ease the burden of Decision Making in every aspect of our lives through **intelligent data-driven systems**.
 
