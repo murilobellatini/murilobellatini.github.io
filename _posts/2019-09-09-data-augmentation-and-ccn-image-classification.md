@@ -4,7 +4,7 @@ date: 2019-09-09
 tags: [image classification, neural networks]
 header:
     image: /images/post3/featured-image.jpg
-excerpt: "A commented walkthrough solution for the Handwritten Digit Recognizer Challenge from Kaggle"
+excerpt: "A commented walkthrough solution for the Handwritten Digit Recognizer Challenge from Kaggle using Keras / TensorFlow"
 mathjax: "true"
 ---
 
