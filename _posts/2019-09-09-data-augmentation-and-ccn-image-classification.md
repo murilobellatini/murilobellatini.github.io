@@ -3,7 +3,7 @@ title: "Data Augmentation and Neural Network Architecture for Image Classificati
 date: 2019-09-09
 tags: [image classification, neural networks]
 header:
-    image: /images/post1/featured-image.jpg
+    image: /images/post3/featured-image.jpg
 excerpt: "A commented walkthrough solution for the Handwritten Digit Recognizer Challange from Kaggle"
 mathjax: "true"
 ---
