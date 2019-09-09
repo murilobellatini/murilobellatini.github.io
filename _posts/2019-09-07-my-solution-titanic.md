@@ -1,5 +1,5 @@
 ---
-title: "My Solution to the Titanic Classification Problem"
+title: "Feature Engineering and Predictive Modelling with the Titanic Classification Challenge"
 date: 2019-09-07
 tags: [classification problem]
 header:
