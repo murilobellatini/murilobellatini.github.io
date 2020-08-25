@@ -28,9 +28,9 @@ These are some examples of what is possible to analyze with the right dose of te
 
 42,619 tweets were extracted during 6 weeks between June and July of 2019 with the search terms being the name of the brazilian telecommunication companies, namely Vivo, Claro, Tim, Oi and Nextel. Once this is done, the first step is to stratify which tweet belongs to which company.
 
-iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/27.embed?showlink=false"></iframe>
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/27.embed?showlink=false"></iframe>
 
-> Well... Vivo is among the most popular companies on Twitter and Nextel is last. Is this good or bad?
+Well... Vivo is among the most popular companies on Twitter and Nextel is last. Is this good or bad?
 
 ## Exploratory Data Analysis with Deep Learning
 
