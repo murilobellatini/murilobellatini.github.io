@@ -12,7 +12,7 @@ _\* The post is based in Portuguese tweets so some knowlegde of the language wou
 
 ## Practical Application of Machine Learning for Social Media Analytics
 
-Do you have any idea how long it takes to read 42,619 tweets? And to write down the opinion expressed in each of them? I can tell you preciselly, 2 days, 8 hours and 53 minutes, that's if you don't make any pause to eat, or sleep, let alone give that sacred look on your cell phone every now and then... And imagine if, during reading, you realize that you are taking the wrong note due to tiredness and need to start all over again ... Or even worse, another 100 thousand new tweets appear for analysis. It doesn't seem very practical, does it?
+Do you have any idea how long it takes to read 42,619 tweets? And to write down the opinion expressed in each of them? I can tell you precisely, 2 days, 8 hours and 53 minutes, that's so onlçy if you don't make any pauses to eat, or sleep, let alone give that sacred look on your cell phone every now and then... And imagine if, during reading, you realize that you are taking the wrong note due to tiredness and need to start all over again ... Or even worse, another 100 thousand new tweets appear for analysis. It doesn't seem very practical, does it?
 
 Well, that is exactly what I propose to solve with today's publication. But instead of doing this reading manually, my approach to solving the problem was to have my computer read the material for me. Using Machine Learning techniques for Text Mining in these more than 42 thousand tweets about the main brazilian telecommunication companies, I've managed to extract the following insights:
 
