@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning Techniques for Social Medial Analytics - Portuguese Version"
+title: "Machine Learning Techniques for Social Medial Analytics - English Version"
 date: 2019-08-01
 tags: [natural language processing]
 header:
@@ -8,44 +8,42 @@ excerpt: "Practical application of Machine Learning techniques for Business Insi
 mathjax: "true"
 ---
 
-*\* The post below is in Portuguese in order to attend a more coherent analysis... But don't you worry, a similar content in English is coming out soon!*
+## Practical Application of Machine Learning for Insights extraction over Tweets
 
-## Aplicação Prática Aprendizado de Máquina para Extração de Insights em Publicações no Twitter
+Do you have any idea how long it takes to read 42,619 tweets? And to write down the opinion expressed in each of them? I tell you, 2 days, 8 hours and 53 minutes, that's if you don't stop to eat, or sleep, let alone give that sacred look on your cell phone ... And imagine if, during reading, you realize that you are taking the wrong note due to tiredness and need to start all over again ... Or, another 100 thousand new tweets appear for analysis. It doesn't seem very practical, does it?
 
-Você tem ideia de quanto tempo leva para se ler 42.619 tweets? E para anotar a opinião expressada em cada um deles? Eu te digo, 2 dias, 8 horas e 53 minutos, isso se você não parar para comer, nem dormir, ou muito menos dar aquela olhadinha sagrada no celular.... E imagine ainda se durante a leitura você percebesse que está anotando errado pelo cansaço e precisa começar tudo de novo... Ou ainda, aparecem mais 100 mil tweets novos para análise. Não parece muito prático, não?
+Well, that is exactly what I propose to solve with today's publication. But instead of doing this reading manually, my approach to solving the problem was to have my computer read the material for me. Using Machine Learning techniques for Text Mining in these more than 42 thousand tweets about the main Telecom companies, I managed to extract the following insights:
 
-Pois bem, é exatamente isso que proponho resolver com essa publicação de hoje. Mas ao invés de realizar essa leitura manualmente, minha abordagem para resolver o problema foi fazer meu computador ler o material por mim. Utilizando técnicas de Aprendizado de Máquina para o Text Mining nesses mais de 42 mil tweets sobre as principais empresas de Telecom, consegui extrair os seguintes insights:
+* Nextel showed the highest dissatisfaction rate for the analyzed sample *
+* Internet was the most claimed product and television is in the last position *
+* Claro was the company with the most mentions about undue consumption of data / credits *
 
-* Nextel apresentou maior índice de insatisfação para amostra analisada *
-* Internet foi o produto mais reclamado e televisão fica na última posição *
-* Claro foi a empresa com mais menções sobre consumo indevido de dados / créditos *
+* \ * Insights were extracted from Twitter only and represent an abstraction of public opinion in the sample presented. Any generalization from this study should be evaluated with greater criteria for decision making in the business world. *
 
-*\* Insights foram extraídos do Twitter apenas e representam uma abstração da opinião do público na amostra apresentada. Qualquer generalização proveniente deste estudo deve ser avaliada com maior critério para tomada de decisões no mundo de negócios.*
+These are some examples of what is possible to analyze with the right dose of technology. Even with scarce resources for the application of mining texts in Portuguese, I set myself the challenge and below explain how I came to these conclusions and conclusions. Let's move on!
 
-Esses são alguns exemplos do que é possível analisar com a dose certa de tecnologia. Mesmo com os recurso escassos para aplicação de mineração de textos em português, me propus ao desafio e abaixo explico como cheguei a estas conclusões conclusões. Vamos em frente!
+## Sample Breakdown
 
-## Detalhamento da Amostra
-
-Foram extraídos 42,619 tweets durante 6 semanas entre Junho-Julho desse ano (2019) com os termos de busca sendo o nome das principais empresas de Telecom brasileira, ou seja, Vivo, Claro, Tim, Oi e Nextel. Feito isso o primeiro passo é estratificar qual tweet pertence a qual empresa.
+42,619 tweets were extracted during 6 weeks between June-July of that year (2019) with the search terms being the name of the main Brazilian Telecom companies, namely Vivo, Claro, Tim, Oi and Nextel. Once this is done, the first step is to stratify which tweet belongs to which company.
 
 <iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/27.embed?showlink=false"></iframe>
 
-Pois bem... A Vivo está entre as empresas mais populares no Twitter e a Nextel fica por último. Será que isso é bom ou ruim?
+Well ... Vivo is among the most popular companies on Twitter and Nextel is last. Is this good or bad?
 
-## Análise Exploratória dos Dados com Deep Learning
+## Exploratory Data Analysis with Deep Learning
 
-E como fazer para saber o que está acontecendo nessa imensidão de dados? A primeira abordagem é aplicar algumas técnicas de Deep Learning e Aprendizado de Máquina Supervisionado.
+And how do you know what's going on in this immensity of data? The first approach is to apply some techniques of Deep Learning and Supervised Machine Learning.
 
-Primeiro treinei um modelo de Vetores de Palavras (Word Embeddings) para agrupar aquelas que acontecem no mesmo contexto. Esse algorítmo realiza a leitura de todos os textos e transforma cada palavra em um vetor de centenas de dimensões. Com o treinamento as palavras do mesmo contexto se aproximam e as demais se distanciam. Depois de reduzir a dimensionalidade desses vetores para duas, conseguimos torná-los visíveis ao olho nu e o resultado está logo abaixo.
+I first trained a Word Embeddings template to group those that happen in the same context. This algorithm performs the reading of all texts and transforms each word into a vector of hundreds of dimensions. With the training the words of the same context come closer and the others move away. After reducing the dimensionality of these vectors to two, we were able to make them visible to the naked eye and the result is just below.
 
-Além disso, aplicamos um dos meus Classificadores de Sentimento pré-treinados para cada uma das palavras para saber quão positiva ou negativa é cada uma delas. Detalhe, esse classificador também foi treinado em textos do Twitter, portanto é uma boa base para iniciar a análise.
+In addition, we apply one of my pre-trained Sentiment Classifiers to each of the words to know how positive or negative each is. Detail, this classifier was also trained in Twitter texts, so it is a good basis to start the analysis.
 
 <div class="mobileHidden" width="100%">
   
   <head>
     
       <meta charset="utf-8">
-      <title>Sentimento de Vocabulário Twitter-Telecom</title>
+      <title>Sentiment Vocabulary Twitter-Telecom</title>
       
       
         
@@ -198,17 +196,17 @@ Além disso, aplicamos um dos meus Classificadores de Sentimento pré-treinados 
   </body>
 </div>
 
-Olha só, é possível ver que palavras similares se agruparam. E a análise de sentimento permite constatarmos isso! Veja você mesmo, passando o mouse sobre os círculos roxos (negativos) e amarelos (postivos) para ler a qual palavra se referem. Parece que estamos no caminho certo... Mas e agora?
+Look, you can see that similar words have grouped together. And sentiment analysis allows us to see this! See for yourself, hovering your mouse over the purple (negative) and yellow (positive) circles to read which word they refer to. It looks like we're on the right track ... But now what?
 
-## Preparação e Rotulação de Dados
+## Data Preparation and Labeling
 
-Bem, uma abordagem poderia ser apenas aplicar nosso Classificador de Sentimento diretamente na base de textos. Isso funciona até certo ponto, pois há nuances em cada domínio linguístico. Portanto preferimos aqui buscar insights através dos vetores e criar um classificador customizado para os Tweets específicos de Telecom.
+Well, one approach could be to just apply our Sentiment Classifier directly to the text base. This works to some extent, as there are nuances in each linguistic domain. So here we prefer to seek insights through vectors and create a customized classifier for specific Telecom tweets.
 
 <div class="mobileHidden" width="100%">
 <head>
     
       <meta charset="utf-8">
-      <title>Vocabulário de Vetores de Palavra Telecom-Twitter</title>
+      <title>Word Embeddings Telecom-Twitter</title>
       
       
         
@@ -363,78 +361,78 @@ Bem, uma abordagem poderia ser apenas aplicar nosso Classificador de Sentimento 
 
 </div>
 
-Conseguimos identificar as palavras mais preditivas para sentimento positivo (Roxo) e negativo (Vermelho) através dessa análise macro! Bem mais intuitivo e prático assim do que lendo os milhares de tweets, não? Veja também como os produtos (Verde) e marcas (Laranja) também se agrupam automaticamente. Notamos um agrupamento de verbalizações sobre Consumo Indevido de Dados / Crédito (Azul). Vamos olhar mais a fundo?
+We were able to identify the most predictive words for positive (Purple) and negative (Red) feeling through this macro analysis! Much more intuitive and practical like that than reading thousands of tweets, right? See also how products (Green) and brands (Orange) also group automatically. We noticed a grouping of verbalizations about undue data / credit consumption (Blue). Shall we look more deeply?
 
-## Nuvems de Palavras
+## Word Clouds
 
-Uma outra maneira bastante intuitiva de saber do que um texto se trata é através de Nuvens de Palavras. Nesse caso agrupamos todos os termos segregados na visualização acima (Vocabulário de Palavras). Aplicamos o tamanho pela similaridade dos termos e as cores por positivo (verde) ou negativo (vermelho)....
+Another very intuitive way of knowing what a text is about is through Word Clouds. In this case, we grouped all the terms segregated in the view above (Word Vocabulary). We apply the size for the similarity of the terms and the colors for positive (green) or negative (red) ....
 
 <div class="row">
   <div class="column">
   <center>Palavras Negativas</center>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/post1/nuvem-negativa.png" alt="Nuvens de Palavras - Negativas">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/post1/nuvem-negativa.png" alt="Word Clouds - Negative">
   </div>
   <div class="column">
   <center>Palavras Positivas</center>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/post1/nuvem-positiva.png" alt="Nuvens de Palavras - Positivas">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/post1/nuvem-positiva.png" alt="Word Clouds - Positive">
   </div>
 </div>
 
 <br>
 
-<center>Tweet Negativo
+<center>Negative Tweet
 <blockquote class="twitter-tweet" data-lang="pt" data-dnt="true" data-theme="light"><p lang="pt" dir="ltr">caralho q vontade de explodir a vivo</p>&mdash; 7 (@brxneiro) <a href="https://twitter.com/brxneiro/status/1143652005006708738?ref_src=twsrc%5Etfw">25 de junho de 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
-<center>Tweet Positivo
+<center>Positive Tweet
   <blockquote class="twitter-tweet" data-lang="pt" data-dnt="true"><p lang="pt" dir="ltr">Chip da Tim é ótimo man, super recomendo.</p>&mdash; Avassalador 🙈 (@RbSouuza) <a href="https://twitter.com/RbSouuza/status/1140160677572747265?ref_src=twsrc%5Etfw">16 de junho de 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 
 <br>
 
-Parece que essas palavras são preditivas mesmo... Olha só alguns exemplos aí em cima. Explodir não era algo tão intuitivo para mim e conseguimos encontrar casos assim graças a aplicação certa de tecnologia.
+It seems that these words are really predictive ... Look at some examples up there. Exploding was not so intuitive for me and we were able to find such cases thanks to the right application of technology.
 
 <div class="row">
   <div class="column">
   <center>Produtos</center>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/post1/nuvem-produtos.png" alt="Nuvens de Palavras - Produtos">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/post1/nuvem-produtos.png" alt="Word Cloud - Products">
   </div>
   <div class="column">
   <center>Consumo Indevido de Dados</center>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/post1/nuvem-consumo-indevido.png" alt="Nuvens de Palavras - Consumo Indevido de Dados">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/post1/nuvem-consumo-indevido.png" alt="Word Cloud - Wrong Data Consumption">
   </div>
 </div>
 
 <br>
 
-Mais algumas nuvens para confirmar pela nossa intuição se os termos realmente estão sendo capturados corretamente.
+A few more clouds to confirm by our intuition that the terms are really being captured correctly.
 
-## Aplicação de Machine Learning Supervisionado
+## Supervised Machine Learning Application
 
-Agora é a hora de generalizar nosso modelo através de Machine Learning Supervisionado. Partimos da premissa que qualquer tweet contendo algum dos termos rotulados acima pertence a sua categoria. Por exemplo, tweet com palavra positiva é positivo. E então aplicamos um algorítmo probabilístico simples, eficaz e tradicional do ramo de Machine Learning para o treinamento, o famoso Naive Bayes. Obtive em média uma assertividade de 75% com baixo esforço. Vejam agora os insights que encontramos!
+Now is the time to generalize our model through Supervised Machine Learning. We assume that any tweet containing any of the terms labeled above belongs to its category. For example, a tweet with a positive word is positive. And then we apply a simple, effective and traditional probabilistic algorithm from the Machine Learning branch for training, the famous Naive Bayes. I obtained an average of 75% assertiveness with low effort. See now the insights we found!
 
-Além de marcar os tweets conforme os rótulos que definimos acima, criamos alguns indicadores como o índice de insatisfação como a soma dos tweets negativos dividido sobre o total de tweets com opinião. Veja:
+In addition to marking tweets according to the labels we defined above, we created some indicators such as the dissatisfaction index as the sum of negative tweets divided over the total number of tweets with opinions. Look:
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/post1/formula.png" alt="Fórmula para Índice de Insatisfação">
+<img src="{{ site.url }}{{ site.baseurl }}/images/post1/formula.png" alt="Satisfaction Index Formula">
 
 <iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/29.embed?showlink=false"></iframe>
 
-Veja como a Nextel possui o maior índice de insatisfação dentre as 5 empresas. É a empresa com a maior incidência de tweets negativos, e menor dos positivos...
+See how Nextel has the highest dissatisfaction rate among the 5 companies. It is the company with the highest incidence of negative tweets, and the lowest of positive ones ...
 
-O próximo passo é segmentar os tweets dentre produtos conforme os rótulos definidos no Vocabulário. Agrupei termos similares em 4 tipos. Apesar de 'plano' não ser tão coletivo aos demais, mantivemos aí pois estes tweets não mencionam nenhum serviço, mas trazem uma dimensão interessante de análise.
+The next step is to segment tweets between products according to the labels defined in the Vocabulary. I have grouped similar terms into 4 types. Although 'plan' is not so collective to others, we kept it there because these tweets do not mention any services, but they bring an interesting dimension of analysis.
 
 <iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/17.embed?showlink=false"></iframe>
 
-Parece que os usuários do Twitter gostam mesmo é de falar do seu plano online... O telefone por outro lado não foi tão popular entre eles....
+It seems that Twitter users really like talking about their plan online ... The phone on the other hand was not as popular with them ....
 
 <iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/31.embed?showlink=false"></iframe>
 
-Da mesma forma que para as marcas, calculamos o índice de insatisfação por produto... Plano é o pior de todos e televisão é o melhor. Pelo jeito estão elogiando bastante a programação divulgada!
+As for the brands, we calculate the dissatisfaction index by product ... Plan is the worst of all and television is the best. Apparently they are very praising the program released!
 
 <iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/33.embed?showlink=false"></iframe>
 
-Por fim quantificamos o percentual de reclamação sobre consumo indevido de dados pelas marcas... A Claro está na lanterna desse Indicador, Nextel no entanto foi o melhor.
+Finally, we quantify the percentage of complaints about improper data consumption by brands ... Claro is in the light of this Indicator, Nextel however was the best.
 
-<center>Exemplos de Consumo Indevido de Dados
+<center>Examples of Wrong Data Consumption
 
 <blockquote class="twitter-tweet" data-lang="pt" data-dnt="true"><p lang="pt" dir="ltr">Botei 10 reais de crédito e a claro comeu tudo tmnc😡😡😡</p>&mdash; - A N D R E W❤ (@AndrewRangelll) <a href="https://twitter.com/AndrewRangelll/status/1136481943028154369?ref_src=twsrc%5Etfw">6 de junho de 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -442,10 +440,10 @@ Por fim quantificamos o percentual de reclamação sobre consumo indevido de dad
 
 </center>
 
-## Conclusões
+## Conclusions
 
-Conseguimos chegar a resultados bastante interessantes nessa análises com relativamente pouco esforço. Graças a aplicação assertiva de técnicas aprendizado de máquina é possível fazer os computadores trabalharem por nós.
+We managed to arrive at very interesting results in these analyzes with relatively little effort. Thanks to the assertive application of machine learning techniques it is possible to make computers work for us.
 
-Obviamente um modelo desses ainda não está pronto para produção, uma vez que apenas uma métrica de qualidade (acurácia) foi avaliada e ainda com uma performance inadequada para aplicações definitivas. Ainda assim é possível se ter uma idéia de onde é possível chegar com esse tipo de tecnologia.
+Obviously such a model is not yet ready for production, since only one quality metric (accuracy) has been evaluated and still with an inadequate performance for definitive applications. It is still possible to have an idea of where it is possible to get with this type of technology.
 
-Diante disso, podemos concluir que vetores de palavras acoplados a classificadores de texto são uma abordagem razoável para se iniciar um projeto de Aprendizado de Máquina considerando grandes volumes de textos.
+Therefore, we can conclude that word vectors coupled with text classifiers are a reasonable approach to start a Machine Learning project considering large volumes of texts.
