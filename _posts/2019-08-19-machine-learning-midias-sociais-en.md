@@ -3,28 +3,30 @@ title: "Machine Learning Techniques for Social Medial Analytics - English Versio
 date: 2019-08-01
 tags: [natural language processing]
 header:
-    image: /images/post1/featured-image.jpg
+  image: /images/post1/featured-image.jpg
 excerpt: "Practical application of Machine Learning techniques for Business Insight Generation from tweets in Portuguese"
 mathjax: "true"
 ---
 
-## Practical Application of Machine Learning for Insights extraction over Tweets
+_\* The post is based in Portuguese tweets so some knowlegde of the language would be ideal, nevertheless you can follow-up by reading my remarks below. Have a good reading! _
 
-Do you have any idea how long it takes to read 42,619 tweets? And to write down the opinion expressed in each of them? I tell you, 2 days, 8 hours and 53 minutes, that's if you don't stop to eat, or sleep, let alone give that sacred look on your cell phone ... And imagine if, during reading, you realize that you are taking the wrong note due to tiredness and need to start all over again ... Or, another 100 thousand new tweets appear for analysis. It doesn't seem very practical, does it?
+## Practical Application of Machine Learning for Social Media Analytics
 
-Well, that is exactly what I propose to solve with today's publication. But instead of doing this reading manually, my approach to solving the problem was to have my computer read the material for me. Using Machine Learning techniques for Text Mining in these more than 42 thousand tweets about the main Telecom companies, I managed to extract the following insights:
+Do you have any idea how long it takes to read 42,619 tweets? And to write down the opinion expressed in each of them? I can tell you preciselly, 2 days, 8 hours and 53 minutes, that's if you don't make any pause to eat, or sleep, let alone give that sacred look on your cell phone every now and then... And imagine if, during reading, you realize that you are taking the wrong note due to tiredness and need to start all over again ... Or even worse, another 100 thousand new tweets appear for analysis. It doesn't seem very practical, does it?
 
-* Nextel showed the highest dissatisfaction rate for the analyzed sample *
-* Internet was the most claimed product and television is in the last position *
-* Claro was the company with the most mentions about undue consumption of data / credits *
+Well, that is exactly what I propose to solve with today's publication. But instead of doing this reading manually, my approach to solving the problem was to have my computer read the material for me. Using Machine Learning techniques for Text Mining in these more than 42 thousand tweets about the main brazilian telecommunication companies, I've managed to extract the following insights:
 
-* \ * Insights were extracted from Twitter only and represent an abstraction of public opinion in the sample presented. Any generalization from this study should be evaluated with greater criteria for decision making in the business world. *
+- Nextel showed the highest dissatisfaction rate for the analyzed sample \*
+- Internet was the most claimed product and television is in the last position \*
+- Claro was the company with the most mentions about undue consumption of data / credits \*
+
+- \ _ Insights were extracted from Twitter only and represent an abstraction of public opinion in the sample presented. Any generalization from this study should be evaluated with greater criteria for decision making in the business world. _
 
 These are some examples of what is possible to analyze with the right dose of technology. Even with scarce resources for the application of mining texts in Portuguese, I set myself the challenge and below explain how I came to these conclusions and conclusions. Let's move on!
 
 ## Sample Breakdown
 
-42,619 tweets were extracted during 6 weeks between June-July of that year (2019) with the search terms being the name of the main Brazilian Telecom companies, namely Vivo, Claro, Tim, Oi and Nextel. Once this is done, the first step is to stratify which tweet belongs to which company.
+42,619 tweets were extracted during 6 weeks between June-July of that year (2019) with the search terms being the name of the brazilian telecommunication companies, namely Vivo, Claro, Tim, Oi and Nextel. Once this is done, the first step is to stratify which tweet belongs to which company.
 
 <iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/27.embed?showlink=false"></iframe>
 
@@ -115,7 +117,7 @@ In addition, we apply one of my pre-trained Sentiment Classifiers to each of the
         </script>
     
   </body>
-</div>  
+</div>
 
 <div class="desktopHidden" width="100%">
   
@@ -196,11 +198,11 @@ In addition, we apply one of my pre-trained Sentiment Classifiers to each of the
   </body>
 </div>
 
-Look, you can see that similar words have grouped together. And sentiment analysis allows us to see this! See for yourself, hovering your mouse over the purple (negative) and yellow (positive) circles to read which word they refer to. It looks like we're on the right track ... But now what?
+Look, we can see that similar words have been grouped together. And sentiment analysis allows us to confirm this! See it for yourself, hovering your mouse over the purple (negative) and yellow (positive) circles to read which word they refer to. It looks like we're on the right track ... But now what?
 
 ## Data Preparation and Labeling
 
-Well, one approach could be to just apply our Sentiment Classifier directly to the text base. This works to some extent, as there are nuances in each linguistic domain. So here we prefer to seek insights through vectors and create a customized classifier for specific Telecom tweets.
+Well, one approach could be to just apply our Sentiment Classifier directly to the text base. This works to some extent, as there are nuances in each linguistic domain. So here we prefer to seek insights through vectors and create a customized classifier for specific linguistic domain of tweets.
 
 <div class="mobileHidden" width="100%">
 <head>
@@ -361,7 +363,7 @@ Well, one approach could be to just apply our Sentiment Classifier directly to t
 
 </div>
 
-We were able to identify the most predictive words for positive (Purple) and negative (Red) feeling through this macro analysis! Much more intuitive and practical like that than reading thousands of tweets, right? See also how products (Green) and brands (Orange) also group automatically. We noticed a grouping of verbalizations about undue data / credit consumption (Blue). Shall we look more deeply?
+We were able to identify the most predictive words for positive (Purple) and negative (Red) feeling through this macro analysis! Much more intuitive and practical like that than reading thousands of tweets, right? See also how products (Green) and brands (Orange) also get grouped automatically. We noticed a grouping of verbalizations about undue data / credit consumption (Blue). Shall we have a look more deeply?
 
 ## Word Clouds
 
@@ -408,15 +410,15 @@ A few more clouds to confirm by our intuition that the terms are really being ca
 
 ## Supervised Machine Learning Application
 
-Now is the time to generalize our model through Supervised Machine Learning. We assume that any tweet containing any of the terms labeled above belongs to its category. For example, a tweet with a positive word is positive. And then we apply a simple, effective and traditional probabilistic algorithm from the Machine Learning branch for training, the famous Naive Bayes. I obtained an average of 75% assertiveness with low effort. See now the insights we found!
+Now is the time to generalize our model through Supervised Machine Learning. We assume that any tweet containing any of the terms labeled above belongs to its category. For example, a tweet with a positive word is positive. And then we apply a simple, effective and traditional probabilistic algorithm from the Machine Learning branch for training, the famous Naive Bayes. I obtained an average of 75% accuracy with little effort - surelly not ready for deployment but good enough for our exploratory data analysis here. See now the insights we found!
 
-In addition to marking tweets according to the labels we defined above, we created some indicators such as the dissatisfaction index as the sum of negative tweets divided over the total number of tweets with opinions. Look:
+In addition to labelling tweets according to the categories we've defined above, I've created some indicators such as the dissatisfaction index as the sum of negative tweets divided over the total number of tweets with opinions. Look:
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/post1/formula.png" alt="Satisfaction Index Formula">
+<img src="{{ site.url }}{{ site.baseurl }}/images/post1/formula.png" alt="Dissatisfaction Index Formula">
 
 <iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/29.embed?showlink=false"></iframe>
 
-See how Nextel has the highest dissatisfaction rate among the 5 companies. It is the company with the highest incidence of negative tweets, and the lowest of positive ones ...
+See how Nextel has the highest dissatisfaction rate amongst the 5 companies. It is the company with the highest incidence of negative tweets, and the lowest of positive ones ...
 
 The next step is to segment tweets between products according to the labels defined in the Vocabulary. I have grouped similar terms into 4 types. Although 'plan' is not so collective to others, we kept it there because these tweets do not mention any services, but they bring an interesting dimension of analysis.
 
@@ -426,11 +428,11 @@ It seems that Twitter users really like talking about their plan online ... The 
 
 <iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/31.embed?showlink=false"></iframe>
 
-As for the brands, we calculate the dissatisfaction index by product ... Plan is the worst of all and television is the best. Apparently they are very praising the program released!
+As for the brands, I've calculated the dissatisfaction index by product ... Plan is the worst of all and television is the best. Apparently they are very praising the program released!
 
 <iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/33.embed?showlink=false"></iframe>
 
-Finally, we quantify the percentage of complaints about improper data consumption by brands ... Claro is in the light of this Indicator, Nextel however was the best.
+Finally, I've quantified the percentage of complaints about improper data consumption by brands ... Claro is the last accoring to this KPI, Nextel however was the best.
 
 <center>Examples of Wrong Data Consumption
 
@@ -442,8 +444,8 @@ Finally, we quantify the percentage of complaints about improper data consumptio
 
 ## Conclusions
 
-We managed to arrive at very interesting results in these analyzes with relatively little effort. Thanks to the assertive application of machine learning techniques it is possible to make computers work for us.
+We've managed to arrive at very interesting results in these analyzes with relatively little effort. Thanks to the assertive application of machine learning techniques it is possible to make computers work for us.
 
-Obviously such a model is not yet ready for production, since only one quality metric (accuracy) has been evaluated and still with an inadequate performance for definitive applications. It is still possible to have an idea of where it is possible to get with this type of technology.
+Obviously such a model is not yet ready for production, since only one quality metric (accuracy) has been evaluated and still with an inadequate performance for definitive applications. It is thought still possible to have an idea of where we can get with this type of technology.
 
-Therefore, we can conclude that word vectors coupled with text classifiers are a reasonable approach to start a Machine Learning project considering large volumes of texts.
+Therefore, we can conclude that word vectors coupled with text classifiers are a reasonable approach to start a Machine Learning project considering large volumes of texts / corpus.

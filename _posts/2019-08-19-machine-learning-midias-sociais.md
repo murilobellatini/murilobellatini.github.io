@@ -3,12 +3,10 @@ title: "Machine Learning Techniques for Social Medial Analytics - Portuguese Ver
 date: 2019-08-01
 tags: [natural language processing]
 header:
-    image: /images/post1/featured-image.jpg
+  image: /images/post1/featured-image.jpg
 excerpt: "Practical application of Machine Learning techniques for Business Insight Generation from tweets in Portuguese"
 mathjax: "true"
 ---
-
-*\* The post below is in Portuguese in order to attend a more coherent analysis... But don't you worry, a similar content in English is coming out soon!*
 
 ## Aplicação Prática Aprendizado de Máquina para Extração de Insights em Publicações no Twitter
 
@@ -16,11 +14,11 @@ Você tem ideia de quanto tempo leva para se ler 42.619 tweets? E para anotar a 
 
 Pois bem, é exatamente isso que proponho resolver com essa publicação de hoje. Mas ao invés de realizar essa leitura manualmente, minha abordagem para resolver o problema foi fazer meu computador ler o material por mim. Utilizando técnicas de Aprendizado de Máquina para o Text Mining nesses mais de 42 mil tweets sobre as principais empresas de Telecom, consegui extrair os seguintes insights:
 
-* Nextel apresentou maior índice de insatisfação para amostra analisada *
-* Internet foi o produto mais reclamado e televisão fica na última posição *
-* Claro foi a empresa com mais menções sobre consumo indevido de dados / créditos *
+- Nextel apresentou maior índice de insatisfação para amostra analisada \*
+- Internet foi o produto mais reclamado e televisão fica na última posição \*
+- Claro foi a empresa com mais menções sobre consumo indevido de dados / créditos \*
 
-*\* Insights foram extraídos do Twitter apenas e representam uma abstração da opinião do público na amostra apresentada. Qualquer generalização proveniente deste estudo deve ser avaliada com maior critério para tomada de decisões no mundo de negócios.*
+_\* Insights foram extraídos do Twitter apenas e representam uma abstração da opinião do público na amostra apresentada. Qualquer generalização proveniente deste estudo deve ser avaliada com maior critério para tomada de decisões no mundo de negócios._
 
 Esses são alguns exemplos do que é possível analisar com a dose certa de tecnologia. Mesmo com os recurso escassos para aplicação de mineração de textos em português, me propus ao desafio e abaixo explico como cheguei a estas conclusões conclusões. Vamos em frente!
 
@@ -117,7 +115,7 @@ Além disso, aplicamos um dos meus Classificadores de Sentimento pré-treinados 
         </script>
     
   </body>
-</div>  
+</div>
 
 <div class="desktopHidden" width="100%">
   
