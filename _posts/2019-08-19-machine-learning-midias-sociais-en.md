@@ -8,7 +8,7 @@ excerpt: "Practical application of Machine Learning techniques for Business Insi
 mathjax: "true"
 ---
 
-_\* The post is based in Portuguese tweets so some knowlegde of the language would be ideal, nevertheless you can follow-up by reading my remarks below. Have a good reading! _
+_\* The post is based in Portuguese tweets so some knowlegde of the language would be ideal, nevertheless you can follow-up by reading my remarks below. Have a good reading!_
 
 ## Practical Application of Machine Learning for Social Media Analytics
 
@@ -20,7 +20,7 @@ Well, that is exactly what I propose to solve with today's publication. But inst
 - Internet was the most claimed product and television is in the last position \*
 - Claro was the company with the most mentions about undue consumption of data / credits \*
 
-- \ _ Insights were extracted from Twitter only and represent an abstraction of public opinion in the sample presented. Any generalization from this study should be evaluated with greater criteria for decision making in the business world. _
+_\* Insights were extracted from Twitter only and represent an abstraction of public opinion in the sample presented. Any generalization from this study should be evaluated with greater criteria for decision making in the business world._
 
 These are some examples of what is possible to analyze with the right dose of technology. Even with scarce resources for the application of mining texts in Portuguese, I set myself the challenge and below explain how I came to these conclusions and conclusions. Let's move on!
 
