@@ -12,33 +12,33 @@ _\* The post is based in Portuguese tweets so some knowlegde of the language wou
 
 ## Practical Application of Machine Learning for Social Media Analytics
 
-Do you have any idea how long it takes to read 42,619 tweets? And to write down the opinion expressed in each of them? I can tell you precisely, 2 days, 8 hours and 53 minutes, that's so only if you don't make any pauses to eat, sleep, or let alone give that sacred look on your cell phone every now and then... And imagine if, during reading, you realize that you are taking the wrong note due to tiredness and need to start all over again ... Or even worse, another 100 thousand new tweets appear for analysis. It doesn't seem very practical, does it?
+Do you have any idea of how long it takes to read 42,619 tweets? And how about to label the sentiment expressed in each of them? I can tell you precisely, 2 days, 8 hours and 53 minutes, that's so only if you don't make any pauses to eat, sleep, or let alone give that sacred look on your smartphone every now and then... And imagine if, during reading, you realize that you are registering the wrong labels due to tiredness and need to start all over again... Or even worse, another 100 thousand new tweets appear for analysis. It doesn't seem very practical, does it?
 
-Well, that is exactly what I propose to solve with today's publication. But instead of doing this reading manually, my approach to solving the problem was to have my computer read the material for me. Using Machine Learning techniques for Text Mining in these more than 42 thousand tweets about the main brazilian telecommunication companies, I've managed to extract the following insights:
+Well, that is exactly what I propose to solve with today's publication - or at least do a demo about :). But instead of doing this reading manually, my approach to solving the problem was to have my computer to read the material for me. Using Machine Learning techniques for Text Mining in these more than 42 thousand tweets about the main brazilian telecommunication companies, I've managed to extract the following insights:
 
-- Nextel showed the highest dissatisfaction rate for the analyzed sample \*
-- Internet was the most claimed product and television is in the last position \*
-- Claro was the company with the most mentions about undue consumption of data / credits \*
+- Nextel showed the highest dissatisfaction rate for the analyzed sample
+- Internet was the most claimed product and television is in the last position
+- Claro was the company with the most mentions about improper consumption of mobile data / credits
 
-_\* Insights were extracted from Twitter only and represent an abstraction of public opinion in the sample presented. Any generalization from this study should be evaluated with greater criteria for decision making in the business world._
+_\* Disclaimer: Insights were extracted from Twitter only and represent an abstraction of public opinion in the presented sample. Any generalization from this study should be evaluated with greater criteria for decision making in the business world._
 
-These are some examples of what is possible to analyze with the right dose of technology. Even with scarce resources for the application of mining texts in Portuguese, I set myself the challenge and below explain how I came to these conclusions and conclusions. Let's move on!
+These are some examples of what is possible to analyze with the right dose of technology. Even with scarce resources for the application of text mining in Portuguese, I set myself the challenge and below explain how I came to these conclusions. Let's dive into it!
 
 ## Sample Breakdown
 
-42,619 tweets were extracted during 6 weeks between June-July of that year (2019) with the search terms being the name of the brazilian telecommunication companies, namely Vivo, Claro, Tim, Oi and Nextel. Once this is done, the first step is to stratify which tweet belongs to which company.
+42,619 tweets were extracted during 6 weeks between June and July of 2019 with the search terms being the name of the brazilian telecommunication companies, namely Vivo, Claro, Tim, Oi and Nextel. Once this is done, the first step is to stratify which tweet belongs to which company.
 
-<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/27.embed?showlink=false"></iframe>
+iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/27.embed?showlink=false"></iframe>
 
-Well ... Vivo is among the most popular companies on Twitter and Nextel is last. Is this good or bad?
+> Well... Vivo is among the most popular companies on Twitter and Nextel is last. Is this good or bad?
 
 ## Exploratory Data Analysis with Deep Learning
 
 And how do you know what's going on in this immensity of data? The first approach is to apply some techniques of Deep Learning and Supervised Machine Learning.
 
-I first trained a Word Embeddings template to group those that happen in the same context. This algorithm performs the reading of all texts and transforms each word into a vector of hundreds of dimensions. With the training the words of the same context come closer and the others move away. After reducing the dimensionality of these vectors to two, we were able to make them visible to the naked eye and the result is just below.
+I first trained a Word Embeddings model to group words that occur in the same context. This algorithm performs the reading of all texts and transforms each word into a vector of hundreds of dimensions. Ignoring all the math behind it, the model mainly tries to guess the next word based on the previous one, this gives a resulting vector of each word in 300 dimensions. After training, word vector of similar context come closer and the others move away. After reducing the dimensionality of these vectors to two, we were able to make them visible to the naked eye and the result is just below.
 
-In addition, we apply one of my pre-trained Sentiment Classifiers to each of the words to know how positive or negative each is. Detail, this classifier was also trained in Twitter texts, so it is a good basis to start the analysis.
+In addition, we apply one of my pre-trained Sentiment Classifiers to each of the words to know how positive or negative each is. Detail, this classifier was also trained over on tweet data, so it is a good basis to start the analysis.
 
 <div class="mobileHidden" width="100%">
   
@@ -363,7 +363,7 @@ Well, one approach could be to just apply our Sentiment Classifier directly to t
 
 </div>
 
-We were able to identify the most predictive words for positive (Purple) and negative (Red) feeling through this macro analysis! Much more intuitive and practical like that than reading thousands of tweets, right? See also how products (Green) and brands (Orange) also get grouped automatically. We noticed a grouping of verbalizations about undue data / credit consumption (Blue). Shall we have a look more deeply?
+We were able to identify the most predictive words for positive (Purple) and negative (Red) feeling through this macro analysis! Much more intuitive and practical like that than reading thousands of tweets, right? See also how products (Green) and brands (Orange) also get grouped automatically. We noticed a grouping of verbalizations about improper data / credit consumption (Blue). Shall we have a look more deeply?
 
 ## Word Clouds
 
@@ -399,7 +399,7 @@ It seems that these words are really predictive ... Look at some examples up the
   <img src="{{ site.url }}{{ site.baseurl }}/images/post1/nuvem-produtos.png" alt="Word Cloud - Products">
   </div>
   <div class="column">
-  <center>Undue Mobile Data Consumption</center>
+  <center>Data Consumption</center>
   <img src="{{ site.url }}{{ site.baseurl }}/images/post1/nuvem-consumo-indevido.png" alt="Word Cloud - Wrong Data Consumption">
   </div>
 </div>
@@ -420,11 +420,11 @@ In addition to labelling tweets according to the categories we've defined above,
 
 See how Nextel has the highest dissatisfaction rate amongst the 5 companies. It is the company with the highest incidence of negative tweets, and the lowest of positive ones ...
 
-The next step is to segment tweets between products according to the labels defined in the Vocabulary. I have grouped similar terms into 4 types. Although 'plan' is not so collective to others, we kept it there because these tweets do not mention any services, but they bring an interesting dimension of analysis.
+The next step is to segment tweets between products according to the labels defined in the Vocabulary. I have grouped similar terms into 4 types. Although 'plan' is not so collective to others, I've kept it there because these tweets do not mention any services, but they bring an interesting dimension to the analysis.
 
 <iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/17.embed?showlink=false"></iframe>
 
-It seems that Twitter users really like talking about their plan online ... The phone on the other hand was not as popular with them ....
+It seems that Twitter users really like talking about their plan online ... The phone on the other hand was not as popular for them ....
 
 <iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~MuriloEvollo/31.embed?showlink=false"></iframe>
 
@@ -434,7 +434,7 @@ As for the brands, I've calculated the dissatisfaction index by product ... Plan
 
 Finally, I've quantified the percentage of complaints about improper data consumption by brands ... Claro is the last accoring to this KPI, Nextel however was the best.
 
-<center>Examples of Undue Mobile Data Consumption
+<center>Examples of Improper Mobile Data Consumption
 
 <blockquote class="twitter-tweet" data-lang="pt" data-dnt="true"><p lang="pt" dir="ltr">Botei 10 reais de crédito e a claro comeu tudo tmnc😡😡😡</p>&mdash; - A N D R E W❤ (@AndrewRangelll) <a href="https://twitter.com/AndrewRangelll/status/1136481943028154369?ref_src=twsrc%5Etfw">6 de junho de 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
