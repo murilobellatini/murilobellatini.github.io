@@ -395,7 +395,7 @@ It seems that these words are really predictive ... Look at some examples up the
 
 <div class="row">
   <div class="column">
-  <center>Products</center>
+  <center>Products<br></center>
   <img src="{{ site.url }}{{ site.baseurl }}/images/post1/nuvem-produtos.png" alt="Word Cloud - Products">
   </div>
   <div class="column">
