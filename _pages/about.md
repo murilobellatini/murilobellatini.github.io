@@ -7,7 +7,7 @@ header:
 
 I've always been fascinated with Technology due to its capacity to improve people's lives at a continuous and infinite pace. That's why I graduated in Engineering, got my MBA in Products & Services and now study **Data Science & Artificial Intelligence**.
 
-Professionally, I'm used to face data-oriented problems, going from **Prescriptive Modelling** on Automotive segment for super cars (believe it or not!) until **Social Media & Speech Analytics** for **Business Insight Generation**.
+Professionally, I'm used to face data-oriented problems, going from **Prescriptive Modelling** on Automotive segment for super cars (believe it or not!) until **Social Media & Speech Analytics** for **Business Insight Generation**. I've also designed and developed Data Pipelines for Text Mining & Speech Analytics dashboards, integrating **C#**, **Python** , **Docker** and **PowerBI**.
 
 My data toolkit covers the whole **Machine Learning Pipeline** with Data Collection, Wrangling, Cleaning, Visualization, Feature Engineering, **Predictive Modelling & Evaluation** in **Python**. Currently, the areas of greatest interest to me tackle unstructured data problems such as Natural Language Processing and Speech Recognition, especially regarding **Unsupervised Deep Learning** through Clustering and Dimensionality Reduction.
 
@@ -16,7 +16,7 @@ My main goal is to ease the burden of Decision Making in every aspect of our liv
 <!-- My vision is that through Artificial Intelligence it is possible to free mankind from work by making all resources infinite. That's why my goal is to 
 
 I have not only good 
-* Business Insight Generation on Social Media & Speech Analytics
+* Business Insight Generation on Social Media &
 
 
 
