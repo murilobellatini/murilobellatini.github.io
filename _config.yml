@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "sunrise" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "aqua" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 locale                   : "en-US"
 title                    : "AI Mindshare"
@@ -108,8 +108,8 @@ analytics:
 author:
   name             : "Murilo Bellatini"
   avatar           : "/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Engineer, Master in Products & Services a Self-taught Data Scientist" # "Engenheiro pós-graduado, tech lover e estusiasta por Ciência de Dados"
-  location         : "São Paulo, SP - Brazil"
+  bio              : "AI Innovator | Proven Strategies for Digital Transformation | NLP & Deep Learning Expertise | Agile Project Management" # "Engenheiro pós-graduado, tech lover e estusiasta por Ciência de Dados"
+  location         : "Munich - Germany"
   email            :
   links:
 
