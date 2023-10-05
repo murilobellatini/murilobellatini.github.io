@@ -18,17 +18,27 @@ Imagine two departments in a growing tech company: Engineering and Marketing. En
 
 A **Data Lake** is a centralized repository that allows you to store all your structured and unstructured data at any scale. In layman's terms, think of it as a massive, virtual 'lake' where data from every department can be 'poured into,' enabling interdepartmental collaboration.
 
-## The Invisible Cost of Waiting
+## The Invisible Cost of Waiting 
 
-You may be tempted to delay, thinking, "Our departments can manage with isolated data sources for now." Here's the problem with that approach: the longer you wait to integrate your data, the more you'll suffer from what I call "invisible costs."
+You might think delaying data integration won't hurt, but that's where you're wrong. Inaction comes with what we call "invisible costs."
+
+<div style="font-size: 4em; text-align: center;">20-30%</div>
+<div style="text-align: center;"><i>Revenue Loss Due to Inefficiencies</i></div>
+
+According to IDC Market Research, companies bleed 20-30% in revenue every year due to inefficiencies<sup>[1](https://www.lobbycre.com/resource/blog/how-data-silos-impact-productivity-data-integrity-and-revenue/#:~:text=Data%20silos%20are%20costly.,over%20%2415%20million%20per%20year)</sup>. Those percentages add up quickly, undermining the financial health of your enterprise.
+
+<div style="font-size: 4em; text-align: center;">$15 Million</div>
+<div style="text-align: center;"><i>Yearly Cost of Bad Data for SMBs</i></div>
+
+Gartner suggests that outdated or inaccurate data can set back small to mid-sized businesses a whopping **$15 million** annually<sup>[1](https://www.lobbycre.com/resource/blog/how-data-silos-impact-productivity-data-integrity-and-revenue/#:~:text=Data%20silos%20are%20costly.,over%20%2415%20million%20per%20year)</sup>. That's not chump change, and it's a price you'll pay year over year.
 
 ### Invisible Cost 1: Data Degradation
 
-Data, much like organic material, decays over time if not properly managed. Every day you delay is another day of potential insights lost.
+Your data isn't fine wine; it doesn't get better with age.
 
 ### Invisible Cost 2: Labor-Intensive Rework
 
-Imagine your engineering team spending weeks cleaning and preparing data. Only then do you realize that the marketing team has already done a similar exercise. That's duplicated effort, which is both time-consuming and costly.
+Imagine finding out your engineering and marketing teams did the same data cleaning. Time and money, wasted.
 
 ## When to Make the Jump?
 
@@ -70,3 +80,5 @@ Once you've made the case for a data lake, calculated the investment, and estima
 At the end of the day, a data lake is not just a storage solution; it's a lifeline for your business's long-term sustainability and competitive edge. The ability to access unified, reliable data is not just an operational advantage—it's a strategic imperative.
 
 So, ask yourself, "Is today the day we dive into the data lake, or do we continue to delay and pay the price?"
+
+* Check out the video on [LinekdIn Post](https://www.linkedin.com/posts/mbellatini_datalake-businessintelligence-cloudcomputing-activity-7115420839017099265-DPFb?utm_source=share&utm_medium=member_desktop).
