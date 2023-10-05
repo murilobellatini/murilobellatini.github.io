@@ -4,82 +4,28 @@ permalink: /about/
 header:
     image: /images/background-wide.jpg
 ---
+## Data & AI Professional: A Journey of Continuous Learning
 
-I've always been fascinated with Technology due to its capacity to improve people's lives at a continuous and infinite pace. That's why I graduated in Engineering, got my MBA in Products & Services and now study **Data Science & Artificial Intelligence**.
+In the ever-changing landscape of data and AI, I consider myself a lifelong learner. My career has spanned over 10 years, yet each day presents new challenges and opportunities to grow.
 
-Professionally, I'm used to face data-oriented problems, going from **Prescriptive Modelling** on Automotive segment for super cars (believe it or not!) until **Social Media & Speech Analytics** for **Business Insight Generation**. I've also designed and developed Data Pipelines for Text Mining & Speech Analytics dashboards, integrating **C#**, **Python** , **Docker** and **PowerBI**.
+### From Data Roles to Project Management: A Diverse Skillset
+- **Business Intelligence to Data Engineering & Science**: My foundation in data started with roles focusing on BI, eventually venturing into data engineering and data science.
+- **Project Management in Automotive & Analytics**: Shifting gears, I explored project management, where I navigated the intricacies of the automotive and analytics sectors.
+  
+### Technologies: Tools of the Trade
+- **Languages**: Proficient in **Python**, **JavaScript**
+- **Frameworks**: Comfortable with **PyTorch**
+- **Databases**: Experienced in both **SQL and NoSQL databases**, including **Neo4j** and **MongoDB**
+- **Cloud Computing**: Adept at leveraging **cloud-based solutions** (2x GPC certified)
+- **Data Visualization**: Skilled in **PowerBI**
+- **Project Development**: Versatile in both **Agile and Waterfall** methodologies
+  
+### Academic Backdrop: Where Theory Meets Practice
+Studying at **TU Munich**, I was fortunate to refine my AI skills, taking them from theoretical knowledge to hands-on expertise.
 
-My data toolkit covers the whole **Machine Learning Pipeline** with Data Collection, Wrangling, Cleaning, Visualization, Feature Engineering, **Predictive Modelling & Evaluation** in **Python**. Currently, the areas of greatest interest to me tackle unstructured data problems such as Natural Language Processing and Speech Recognition, especially regarding **Unsupervised Deep Learning** through Clustering and Dimensionality Reduction.
+### Past Collaborations: Adding Value Wherever I Go
+I've been privileged to contribute to a range of enterprises, from industry stalwarts like **Volkswagen and Comdata Group**, to agile startups like **Globant and Grupo ZAP**, and consultancies such as **Evollo**, which I co-founded laying the groundwork for a affordable speech & text intelligence SaaS.
 
-My main goal is to ease the burden of Decision Making in every aspect of our lives through **intelligent data-driven systems**.
+### Let's Engage
+Whether it's a complex project needing a nuanced approach, or a casual discussion on AI's role in modern business, I’m open to connect. Feel free to send me a DM on LinkedIn to explore how we can collaborate.
 
-<!-- My vision is that through Artificial Intelligence it is possible to free mankind from work by making all resources infinite. That's why my goal is to 
-
-I have not only good 
-* Business Insight Generation on Social Media &
-
-
-
-That's why I studied engineering and then thankfully finished my Masters in Business Administration. 
-
-* Engineer with B.A.Sc. at University of Campinas (Unicamp)
-* Master in Business Administration of Products & Services at University of São Paulo (USP)
-
-Experience with:
-* Prescritive Models on Automotive Segment
-* Business Insight Generation on Social Media & Speech Analytics
-
-
-* Supervised
-* Machine Learning Algorithms for Classification and Regression
-* Natural Language Processing (Sentment Analysis & Doc/Word Embeddings)
-* RNN / Nayve Bayes Classifiers
-* Speech Recognition
-* API Services Interaction
-* SQL Database Manipulation
-
-sei fazer dinheiro
-
-manjo data science
-tenho paixao por tencologia (arquitetura de sistemas)
-resolvo problemas (MBA e Gestão de Proejtos)
-consigo me comunicar (idiomas e softskills)
-
-Atuo desde 2011 no ramo de Tecnologia. Tenho experiência com Modelos Preditivos para Extração de 
-
-Experience with Prescriptive Models for performance increase of compoments from Porsche supercar
-Experience with Social Medial Analytics
-Experience with Speech Analytics
-Experience with Computer Aided Engineering
-Experience with Machine Learning & Natural Language processing
-Experience with Extracting Business Insights via preditive models
-Python, SQL, C#, C++, MatLAB
-Enthusiast por solving data problems
-
-Experienced with Predictive and Prescritive Models on Automotive, Financial & Service Fields
-Self-taught Data Scientist Speech Recognition, Natural Language Processing, 
-
-
-
-I'd say I've been officially involved with Technology since 2008 when I programmed my first Snake Game on C++.
-
-
-As , I've been involved with technology since 2010 where my passion for programming flourished. At college I've got to know an objective oriented programming language, C++. I couldn't stop learning until finished to hard-code my first Snake Game! With GUI on a DOS-Terminal with timely intervaled screen refreshs for animating movement...
-
-
-
-
-
-* Engineer graduated at University of Campinas (Unicamp)
-* Master in Products & Services at University of São Paulo (USP).
-* Predictive and Prescritive Models through computational techniques at Stuttgart office of Exa GmbH.
-* Vectorial & Numeric Calculus 
-* Statistics lover
-* C++ Programming (Snake Game)]
-
-
-Engineer with Master in Products & Services at University of São Paulo (USP).
-
-Desde 2011 atuo com Modelos Preditivos e Prescritivos através de técnicas computacionais.
-
-Experiência com modelos para aumento de performance de componentes Porsche para supercarros pelo escritório de Stuttgart da Exa GmbH.  -->
