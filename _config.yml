@@ -12,22 +12,21 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "sunrise" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-# Site Settings
 locale                   : "en-US"
-title                    : "Murilo Bellatini - Data Science Portfolio"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+title                    : "AI Mindshare"
+title_separator          : "|"
+subtitle                 : "Unlocking Business Value with AI & Data" # More specific, actionable focus
 name                     : "Murilo Bellatini"
-description              : "Engineer, Master in Products & Services a Self-taught Data Scientist"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+description              : "AI Innovator | Proven Strategies for Digital Transformation | NLP & Deep Learning Expertise | Agile Project Management" # More concise, focused on expertise
+url                      : # [Your URL Here]
+baseurl                  : # [Your Subpath Here]
+repository               : # [Your GitHub Here]
+teaser                   : # [Your Teaser Image]
+logo                     : # [Your Logo Here]
+masthead_title           : # [Optional Custom Title]
+# breadcrumbs            : false
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -116,7 +115,7 @@ author:
 
     - label: "Kaggle"
       icon: "fab fa-fw fa-kaggle"
-      url: "https://www.kaggle.com/mbeliu"
+      # url: "https://www.kaggle.com/mbeliu"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/murilo-bellatini/"
