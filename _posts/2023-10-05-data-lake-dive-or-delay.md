@@ -70,3 +70,5 @@ Once you've made the case for a data lake, calculated the investment, and estima
 At the end of the day, a data lake is not just a storage solution; it's a lifeline for your business's long-term sustainability and competitive edge. The ability to access unified, reliable data is not just an operational advantage—it's a strategic imperative.
 
 So, ask yourself, "Is today the day we dive into the data lake, or do we continue to delay and pay the price?"
+
+* Check out the video on [LinekdIn Post](https://www.linkedin.com/posts/mbellatini_datalake-businessintelligence-cloudcomputing-activity-7115420839017099265-DPFb?utm_source=share&utm_medium=member_desktop).
