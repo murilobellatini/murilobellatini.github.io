@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Machine Learning"
-permalink: /machine-learning/
+title: "Posts"
+permalink: /posts/
 header:
     image: /images/background-wide.jpg
 ---
