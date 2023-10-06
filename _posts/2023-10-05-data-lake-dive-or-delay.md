@@ -3,7 +3,7 @@ title: "To Dive or To Delay: The Right Time to Invest in a Data Lake"
 date: 2023-10-05
 tags: [Data Lake, Business Strategy]
 header:
-  image: /images/generative-ai/main.mp4
+  image: /images/data-lake-dive-or-delay/featured-image.jpeg
 excerpt: "Unpacking the optimal moment to invest in a data lake, balancing investment, risk, and interdepartmental needs."
 mathjax: "true"
 ---
