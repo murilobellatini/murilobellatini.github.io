@@ -25,7 +25,7 @@ You might think delaying data integration won't hurt, but that's where you're wr
 <div style="font-size: 4em; text-align: center; margin-bottom: -1%;">$15 Million</div>
 <div style="text-align: center; margin-bottom: 2%;"><i>Yearly Cost of Bad Data for SMBs</i></div>
 
-Gartner suggests that outdated or inaccurate data can set back small to mid-sized businesses a whopping <strong>$15 million</strong> annually. <a href="https://www.gartner.com/smarterwithgartner/how-to-stop-data-quality-undermining-your-business" target="_blank">[1: Gartner]</a> That's not chump change, and it's a price you'll pay year over year.
+Gartner suggests that outdated or inaccurate data can set back small to mid-sized businesses a whopping <strong>$15 million</strong> annually. <sup><a href="https://www.gartner.com/smarterwithgartner/how-to-stop-data-quality-undermining-your-business" target="_blank">[1: Gartner]</a></sup> That's not chump change, and it's a price you'll pay year over year.
 
 ### Invisible Cost 1: Data Degradation
 
@@ -49,7 +49,7 @@ Investing in a data lake isn't merely a tech play; it's a strategic inflection p
 <div style="font-size: 4em; text-align: center; margin-bottom: -1%;">3-4 Years</div>
 <div style="text-align: center; margin-bottom: 2%;"><i>Time to Break-even</i></div>
 
-The 3-4 year break-even window isn't a trivial detail; it's your strategic clock. Align your tech outlays with long-term goals, ensuring diligence and continual evaluation.
+The 3-4 year break-even window<sup><a href="https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/a%20manufacturers%20guide%20to%20generating%20value%20at%20scale%20with%20iiot/leveraging-industrial-iot-and-advanced-technologies-for-digital-transformation.pdf" target="_blank">[2: McKinsey Report]</a></sup> isn't a trivial detail; it's your strategic clock. Align your tech outlays with long-term goals, ensuring diligence and continual evaluation.
 
 <div style="font-size: 48px; text-align: center; margin-bottom: -1%;">0.2% - 9%</div>
 <div style="text-align: center;"><i>Expected EBIT Margin Impact</i></div>
