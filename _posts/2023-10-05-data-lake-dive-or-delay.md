@@ -10,7 +10,7 @@ mathjax: "true"
 
 > TL;DR: Delaying a data lake investment exposes your organization to hidden costs and inefficiencies. When your departments operate in data silos, you're overdue for this tech upgrade.
 
-## The Tale of Two Departments: A Real-Life Story
+## The Tale of Two Departments
 
 Consider this: Engineering and Marketing are both drowning in valuable data, yet these silos inhibit overall growth. Your organization is at a critical inflection point—consolidate this data or risk competitive lag.
 
