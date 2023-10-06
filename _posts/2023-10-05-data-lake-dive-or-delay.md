@@ -18,12 +18,15 @@ Consider this: Engineering and Marketing are both drowning in valuable data, yet
 
 A **Data Lake** is a centralized repository that allows you to store all your structured and unstructured data at any scale. In layman's terms, think of it as a massive, virtual 'lake' where data from every department can be 'poured into,' enabling interdepartmental collaboration.
 
+<img href="images/data-lake-dive-or-delay/Data-silos-limit-the-value-of-your-data-diagram.png">
+<div style="text-align: center; margin-bottom: 2%;"><i>Diagram shows difference of Data Silos and Data Lake <sup><a href="https://aws.amazon.com/blogs/storage/aws-reinvent-recap-break-down-data-silos-with-a-data-lake-on-amazon-s3/" target="_blank">[1: AWS]</a></sup></i></div>
+
 ## The Invisible Cost of Waiting 
 
 You might think delaying data integration won't hurt, but that's where you're wrong. Inaction comes with what we call "invisible costs."
 
 <div style="font-size: 4em; text-align: center; margin-bottom: -1%;">$15 Million</div>
-<div style="text-align: center; margin-bottom: 2%;"><i>Yearly Cost of Bad Data for SMBs <sup><a href="https://www.gartner.com/smarterwithgartner/how-to-stop-data-quality-undermining-your-business" target="_blank">[1: Gartner]</a></sup></i></div>
+<div style="text-align: center; margin-bottom: 2%;"><i>Yearly Cost of Bad Data for SMBs <sup><a href="https://www.gartner.com/smarterwithgartner/how-to-stop-data-quality-undermining-your-business" target="_blank">[2: Gartner]</a></sup></i></div>
 
 Gartner suggests that outdated or inaccurate data can set back small to mid-sized businesses a whopping <strong>$15 million</strong> annually.  That's not chump change, and it's a price you'll pay year over year.
 
@@ -50,7 +53,7 @@ Investing in a data lake isn't merely a tech play; it's a strategic inflection p
 The 3-4 year break-even window isn't a trivial detail; it's your strategic clock. Align your tech outlays with long-term goals, ensuring diligence and continual evaluation.
 
 <div style="font-size: 48px; text-align: center; margin-bottom: -1%;">0.2% - 9%</div>
-<div style="text-align: center;margin-bottom: 2%;"><i>Expected EBIT Margin Impact <sup><a href="https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/a%20manufacturers%20guide%20to%20generating%20value%20at%20scale%20with%20iiot/leveraging-industrial-iot-and-advanced-technologies-for-digital-transformation.pdf" target="_blank">[2: McKinsey]</a></sup></i></div>
+<div style="text-align: center;margin-bottom: 2%;"><i>Expected EBIT Margin Impact <sup><a href="https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/a%20manufacturers%20guide%20to%20generating%20value%20at%20scale%20with%20iiot/leveraging-industrial-iot-and-advanced-technologies-for-digital-transformation.pdf" target="_blank">[3: McKinsey]</a></sup></i></div>
 
 The variability in EBIT margin impact, from a nearly imperceptible 0.2% to a robust 9%, offers a dual lesson. It shows the room for upside, especially in areas like R&D, Sales, and Marketing, but also serves as a cautionary tale against complacency. Remember, these numbers aren't just statistics; they're projections that will be etched into quarterly reports and shareholder meetings.
 
@@ -86,5 +89,6 @@ What is your take? Leave your comment on our [LinkedIn Post](https://www.linkedi
 
 ## Sources
 
-1. **Gartner**: [How to Stop Data Quality Undermining Your Business](https://www.gartner.com/smarterwithgartner/how-to-stop-data-quality-undermining-your-business)
-2. **McKinsey**: [A Manufacturer's Guide to Generating Value at Scale with IIoT](https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/a%20manufacturers%20guide%20to%20generating%20value%20at%20scale%20with%20iiot/leveraging-industrial-iot-and-advanced-technologies-for-digital-transformation.pdf)
+1. **AWS**: [Invent Recap: Break Down Data Silos with a Data Lake on Amazon S3](https://aws.amazon.com/blogs/storage/aws-reinvent-recap-break-down-data-silos-with-a-data-lake-on-amazon-s3/)
+2. **Gartner**: [How to Stop Data Quality Undermining Your Business](https://www.gartner.com/smarterwithgartner/how-to-stop-data-quality-undermining-your-business)
+3. **McKinsey**: [A Manufacturer's Guide to Generating Value at Scale with IIoT](https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/a%20manufacturers%20guide%20to%20generating%20value%20at%20scale%20with%20iiot/leveraging-industrial-iot-and-advanced-technologies-for-digital-transformation.pdf)
