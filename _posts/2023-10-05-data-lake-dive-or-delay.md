@@ -25,7 +25,7 @@ You might think delaying data integration won't hurt, but that's where you're wr
 <div style="font-size: 4em; text-align: center; margin-bottom: -1%;">$15 Million</div>
 <div style="text-align: center; margin-bottom: 2%;"><i>Yearly Cost of Bad Data for SMBs</i></div>
 
-Gartner suggests that outdated or inaccurate data can set back small to mid-sized businesses a whopping **$15 million** annually<sup><a href="https://www.gartner.com/smarterwithgartner/how-to-stop-data-quality-undermining-your-business" target="_blank">1</a></sup>. That's not chump change, and it's a price you'll pay year over year.
+Gartner suggests that outdated or inaccurate data can set back small to mid-sized businesses a whopping <strong>$15 million</strong> annually. <a href="https://www.gartner.com/smarterwithgartner/how-to-stop-data-quality-undermining-your-business" target="_blank">Source: Gartner <img src="path/to/gartner-favicon.ico" alt="Gartner Icon"></a> That's not chump change, and it's a price you'll pay year over year.
 
 ### Invisible Cost 1: Data Degradation
 
