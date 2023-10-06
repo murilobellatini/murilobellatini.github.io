@@ -52,8 +52,8 @@ Investing in a data lake isn't merely a tech play; it's a strategic inflection p
 
 The 3-4 year break-even window isn't a trivial detail; it's your strategic clock. Align your tech outlays with long-term goals, ensuring diligence and continual evaluation.
 
-<div style="font-size: 48px; text-align: center; margin-bottom: -1%;">0.2% - 9%</div>
-<div style="text-align: center;margin-bottom: 2%;"><i>Expected EBIT Margin Impact <sup><a href="https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/a%20manufacturers%20guide%20to%20generating%20value%20at%20scale%20with%20iiot/leveraging-industrial-iot-and-advanced-technologies-for-digital-transformation.pdf" target="_blank">[3: McKinsey]</a></sup></i></div>
+<div style="font-size: 4em; text-align: center; margin-bottom: -1%;">0.2% - 9%</div>
+<div style="text-align: center; margin-bottom: 2%;"><i>Expected EBIT Margin Impact <sup><a href="https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/a%20manufacturers%20guide%20to%20generating%20value%20at%20scale%20with%20iiot/leveraging-industrial-iot-and-advanced-technologies-for-digital-transformation.pdf" target="_blank">[3: McKinsey]</a></sup></i></div>
 
 The variability in EBIT margin impact, from a nearly imperceptible 0.2% to a robust 9%, offers a dual lesson. It shows the room for upside, especially in areas like R&D, Sales, and Marketing, but also serves as a cautionary tale against complacency. Remember, these numbers aren't just statistics; they're projections that will be etched into quarterly reports and shareholder meetings.
 
