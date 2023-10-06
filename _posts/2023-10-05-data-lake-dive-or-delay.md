@@ -23,9 +23,9 @@ A **Data Lake** is a centralized repository that allows you to store all your st
 You might think delaying data integration won't hurt, but that's where you're wrong. Inaction comes with what we call "invisible costs."
 
 <div style="font-size: 4em; text-align: center; margin-bottom: -1%;">$15 Million</div>
-<div style="text-align: center; margin-bottom: 2%;"><i>Yearly Cost of Bad Data for SMBs</i></div>
+<div style="text-align: center; margin-bottom: 2%;"><i>Yearly Cost of Bad Data for SMBs<sup><a href="https://www.gartner.com/smarterwithgartner/how-to-stop-data-quality-undermining-your-business" target="_blank">[1: Gartner]</a></sup></i></div>
 
-Gartner suggests that outdated or inaccurate data can set back small to mid-sized businesses a whopping <strong>$15 million</strong> annually. <sup><a href="https://www.gartner.com/smarterwithgartner/how-to-stop-data-quality-undermining-your-business" target="_blank">[1: Gartner]</a></sup> That's not chump change, and it's a price you'll pay year over year.
+Gartner suggests that outdated or inaccurate data can set back small to mid-sized businesses a whopping <strong>$15 million</strong> annually.  That's not chump change, and it's a price you'll pay year over year.
 
 ### Invisible Cost 1: Data Degradation
 
@@ -44,15 +44,15 @@ So, when is the right time to invest in a data lake? When your business hits the
 
 ## Investment vs. Risk: Striking the Balance
 
-Investing in a data lake isn't merely a tech play; it's a strategic inflection point that demands serious business consideration. Notably, McKinsey's insight reveals a 3-4 year break-even window for cloud programs, especially those focused on IT infrastructure substitutions<sup><a href="https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/a%20manufacturers%20guide%20to%20generating%20value%20at%20scale%20with%20iiot/leveraging-industrial-iot-and-advanced-technologies-for-digital-transformation.pdf" target="_blank">[2: McKinsey]</a></sup>.
+Investing in a data lake isn't merely a tech play; it's a strategic inflection point that demands serious business consideration. Notably, McKinsey's insight reveals a 3-4 year break-even window for cloud programs, especially those focused on IT infrastructure substitutions.
 
 <div style="font-size: 4em; text-align: center; margin-bottom: -1%;">3-4 Years</div>
-<div style="text-align: center; margin-bottom: 2%;"><i>Time to Break-even</i></div>
+<div style="text-align: center; margin-bottom: 2%;"><i>Time to Break-even<sup><a href="https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/a%20manufacturers%20guide%20to%20generating%20value%20at%20scale%20with%20iiot/leveraging-industrial-iot-and-advanced-technologies-for-digital-transformation.pdf" target="_blank">[2: McKinsey]</a></sup></i></div>
 
-The 3-4 year break-even window<sup><a href="https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/a%20manufacturers%20guide%20to%20generating%20value%20at%20scale%20with%20iiot/leveraging-industrial-iot-and-advanced-technologies-for-digital-transformation.pdf" target="_blank">[2: McKinsey]</a></sup> isn't a trivial detail; it's your strategic clock. Align your tech outlays with long-term goals, ensuring diligence and continual evaluation.
+The 3-4 year break-even window isn't a trivial detail; it's your strategic clock. Align your tech outlays with long-term goals, ensuring diligence and continual evaluation.
 
 <div style="font-size: 48px; text-align: center; margin-bottom: -1%;">0.2% - 9%</div>
-<div style="text-align: center;"><i>Expected EBIT Margin Impact</i></div>
+<div style="text-align: center;"><i>Expected EBIT Margin Impact <sup><a href="https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/a%20manufacturers%20guide%20to%20generating%20value%20at%20scale%20with%20iiot/leveraging-industrial-iot-and-advanced-technologies-for-digital-transformation.pdf" target="_blank">[2: McKinsey]</a></sup></i></div>
 
 The variability in EBIT margin impact, from a nearly imperceptible 0.2% to a robust 9%, offers a dual lesson. It shows the room for upside, especially in areas like R&D, Sales, and Marketing, but also serves as a cautionary tale against complacency. Remember, these numbers aren't just statistics; they're projections that will be etched into quarterly reports and shareholder meetings.
 
