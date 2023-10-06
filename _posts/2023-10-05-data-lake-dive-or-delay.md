@@ -23,12 +23,12 @@ A **Data Lake** is a centralized repository that allows you to store all your st
 You might think delaying data integration won't hurt, but that's where you're wrong. Inaction comes with what we call "invisible costs."
 
 <div style="font-size: 4em; text-align: center; margin-bottom: -1%;">20-30%</div>
-<div style="text-align: center; margin-bottom: 1%;"><i>Revenue Loss Due to Inefficiencies</i></div>
+<div style="text-align: center; margin-bottom: 2%;"><i>Revenue Loss Due to Inefficiencies</i></div>
 
 According to IDC Market Research, companies bleed 20-30% in revenue every year due to inefficiencies<sup>[1](https://www.lobbycre.com/resource/blog/how-data-silos-impact-productivity-data-integrity-and-revenue/#:~:text=Data%20silos%20are%20costly.,over%20%2415%20million%20per%20year)</sup>. Those percentages add up quickly, undermining the financial health of your enterprise.
 
 <div style="font-size: 4em; text-align: center; margin-bottom: -1%;">$15 Million</div>
-<div style="text-align: center; margin-bottom: 1%;"><i>Yearly Cost of Bad Data for SMBs</i></div>
+<div style="text-align: center; margin-bottom: 2%;"><i>Yearly Cost of Bad Data for SMBs</i></div>
 
 Gartner suggests that outdated or inaccurate data can set back small to mid-sized businesses a whopping **$15 million** annually<sup>[1](https://www.lobbycre.com/resource/blog/how-data-silos-impact-productivity-data-integrity-and-revenue/#:~:text=Data%20silos%20are%20costly.,over%20%2415%20million%20per%20year)</sup>. That's not chump change, and it's a price you'll pay year over year.
 
