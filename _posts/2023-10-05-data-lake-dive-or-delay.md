@@ -44,12 +44,12 @@ So, when is the right time to invest in a data lake? When your business hits the
 
 ## Investment vs. Risk: Striking the Balance
 
-Investing in a data lake isn't merely a tech play; it's a strategic inflection point that demands serious business consideration. Notably, McKinsey's insight reveals a 3-4 year break-even window for cloud programs, especially those focused on IT infrastructure substitutions<sup><a href="https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/a%20manufacturers%20guide%20to%20generating%20value%20at%20scale%20with%20iiot/leveraging-industrial-iot-and-advanced-technologies-for-digital-transformation.pdf" target="_blank">[2: McKinsey Report]</a></sup>.
+Investing in a data lake isn't merely a tech play; it's a strategic inflection point that demands serious business consideration. Notably, McKinsey's insight reveals a 3-4 year break-even window for cloud programs, especially those focused on IT infrastructure substitutions<sup><a href="https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/a%20manufacturers%20guide%20to%20generating%20value%20at%20scale%20with%20iiot/leveraging-industrial-iot-and-advanced-technologies-for-digital-transformation.pdf" target="_blank">[2: McKinsey]</a></sup>.
 
 <div style="font-size: 4em; text-align: center; margin-bottom: -1%;">3-4 Years</div>
 <div style="text-align: center; margin-bottom: 2%;"><i>Time to Break-even</i></div>
 
-The 3-4 year break-even window<sup><a href="https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/a%20manufacturers%20guide%20to%20generating%20value%20at%20scale%20with%20iiot/leveraging-industrial-iot-and-advanced-technologies-for-digital-transformation.pdf" target="_blank">[2: McKinsey Report]</a></sup> isn't a trivial detail; it's your strategic clock. Align your tech outlays with long-term goals, ensuring diligence and continual evaluation.
+The 3-4 year break-even window<sup><a href="https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/a%20manufacturers%20guide%20to%20generating%20value%20at%20scale%20with%20iiot/leveraging-industrial-iot-and-advanced-technologies-for-digital-transformation.pdf" target="_blank">[2: McKinsey]</a></sup> isn't a trivial detail; it's your strategic clock. Align your tech outlays with long-term goals, ensuring diligence and continual evaluation.
 
 <div style="font-size: 48px; text-align: center; margin-bottom: -1%;">0.2% - 9%</div>
 <div style="text-align: center;"><i>Expected EBIT Margin Impact</i></div>
@@ -93,3 +93,8 @@ In essence, a data lake isn't just a tech choice; it's a cornerstone of long-ter
 > 🔍 **Final Take**: Data lakes are a calculated risk with the potential for unprecedented innovation. Each organization's mileage may vary; consult a data expert. This is a strategic pivot, not just a tech decision.
 
 What is your take? Leave your comment on our [LinekdIn Post](https://www.linkedin.com/posts/mbellatini_datalake-businessintelligence-cloudcomputing-activity-7115420839017099265-DPFb?utm_source=share&utm_medium=member_desktop).
+
+## Sources
+
+1. **Gartner**: [How to Stop Data Quality Undermining Your Business](https://www.gartner.com/smarterwithgartner/how-to-stop-data-quality-undermining-your-business)
+2. **McKinsey**: [A Manufacturer's Guide to Generating Value at Scale with IIoT](https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/a%20manufacturers%20guide%20to%20generating%20value%20at%20scale%20with%20iiot/leveraging-industrial-iot-and-advanced-technologies-for-digital-transformation.pdf)
