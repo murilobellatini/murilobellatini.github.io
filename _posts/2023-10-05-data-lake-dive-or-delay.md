@@ -92,7 +92,7 @@ In essence, a data lake isn't just a tech choice; it's a cornerstone of long-ter
 
 > 🔍 **Final Take**: Data lakes are a calculated risk with the potential for unprecedented innovation. Each organization's mileage may vary; consult a data expert. This is a strategic pivot, not just a tech decision.
 
-What is your take? Leave your comment on our [LinekdIn Post](https://www.linkedin.com/posts/mbellatini_datalake-businessintelligence-cloudcomputing-activity-7115420839017099265-DPFb?utm_source=share&utm_medium=member_desktop).
+What is your take? Leave your comment on our [LinkedIn Post](https://www.linkedin.com/posts/mbellatini_datalake-businessintelligence-cloudcomputing-activity-7115420839017099265-DPFb?utm_source=share&utm_medium=member_desktop).
 
 ## Sources
 
