@@ -76,7 +76,7 @@
 
       const popup = document.createElement('div');
       popup.classList.add('source-popup');
-      popup.innerHTML = `<span><strong>Source: </strong></br><a href='${sourceUrl}' target='_blank'>${sourceName}</a></span>`;
+      popup.innerHTML = `<a href='${sourceUrl}' target='_blank'>Source: ${sourceName}</a>`;
 
       tooltip.appendChild(popup);
 
