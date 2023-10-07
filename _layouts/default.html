@@ -68,15 +68,30 @@
   document.addEventListener("DOMContentLoaded", function () {
     const tooltips = document.querySelectorAll('.source-tooltip');
 
+    let timeoutId;
+
     tooltips.forEach(function (tooltip) {
       const sourceName = tooltip.getAttribute('data-source-name');
       const sourceUrl = tooltip.getAttribute('data-source-url');
 
       const popup = document.createElement('div');
       popup.classList.add('source-popup');
-      popup.innerHTML = `<strong>${sourceName}</strong><br><a href='${sourceUrl}' target='_blank'>${sourceName}</a>`;
+      popup.innerHTML = `<a href='${sourceUrl}' target='_blank'>${sourceName}</a>`;
 
       tooltip.appendChild(popup);
+
+      tooltip.addEventListener('mouseenter', function () {
+        if (timeoutId) {
+          clearTimeout(timeoutId);
+        }
+        popup.style.display = 'block';
+      });
+
+      tooltip.addEventListener('mouseleave', function () {
+        timeoutId = setTimeout(function () {
+          popup.style.display = 'none';
+        }, 1000); // 1000 milliseconds = 1 seconds
+      });
     });
   });
 
