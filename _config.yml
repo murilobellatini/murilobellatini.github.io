@@ -19,7 +19,7 @@ title                    : "AI Mindshare"
 title_separator          : "|"
 subtitle                 : "Unlocking Business Value with AI & Data" # More specific, actionable focus
 name                     : "Murilo Bellatini"
-description              : "AI Innovator, Proven Strategies for Digital Transformation, NLP & Deep Learning Expertise, Agile Project Management" # More concise, focused on expertise
+description              : "AI Innovator, Digital Transformation Strategist, NLP & Generative AI Expert, Agile PM" # More concise, focused on expertise
 url                      : # [Your URL Here]
 baseurl                  : # [Your Subpath Here]
 repository               : # [Your GitHub Here]
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Murilo Bellatini"
   avatar           : "/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "AI Innovator, Proven Strategies for Digital Transformation, NLP & Deep Learning Expertise, Agile Project Management" # "Engenheiro pós-graduado, tech lover e estusiasta por Ciência de Dados"
+  bio              : "AI Innovator, Digital Transformation Strategist, NLP & Generative AI Expert, Agile PM" # "Engenheiro pós-graduado, tech lover e estusiasta por Ciência de Dados"
   location         : "Munich - Germany"
   email            :
   links:
