@@ -7,6 +7,7 @@ header:
 excerpt: "Unpacking the optimal moment to invest in a data lake, balancing investment, risk, and interdepartmental needs."
 mathjax: "true"
 ---
+<a href="#" class="source-tooltip" data-source-name="McKinsey" data-source-url="https://www.mckinsey.com/">[1: McKinsey]</a>
 
 > TL;DR: Invest in a data lake to break silos and fuel innovation. It's no magic bullet—there are real costs and strategy is key. For informed decisions backed by McKinsey and Gartner data, read more in-depth.
 
