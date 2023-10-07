@@ -26,7 +26,7 @@ A **Data Lake** is a centralized repository that allows you to store all your st
 You might think delaying data integration won't hurt, but that's where you're wrong. Inaction comes with what we call "invisible costs."
 
 <div style="font-size: 4em; text-align: center; margin-bottom: -1%;">$15 Million</div>
-<div style="text-align: center; margin-bottom: 2%;"><i>Yearly Cost of Bad Data for SMBs <sup><a href="#" class="source-tooltip" data-source-name="Gartner's Insight Report" data-source-url="https://www.gartner.com/smarterwithgartner/how-to-stop-data-quality-undermining-your-business" target="_blank">[2]</a></sup></i></div>
+<div style="text-align: center; margin-bottom: 2%;"><i>Yearly Cost of Bad Data for SMBs <sup><a href="#" class="source-tooltip" data-source-name="Gartner's Article" data-source-url="https://www.gartner.com/smarterwithgartner/how-to-stop-data-quality-undermining-your-business" target="_blank">[2]</a></sup></i></div>
 
 Gartner suggests that outdated or inaccurate data can set back small to mid-sized businesses a whopping <strong>$15 million</strong> annually.  That's not chump change, and it's a price you'll pay year over year.
 
