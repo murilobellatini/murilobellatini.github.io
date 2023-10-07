@@ -18,7 +18,7 @@ Consider this: Engineering and Marketing are both drowning in valuable data, yet
 
 A **Data Lake** is a centralized repository that allows you to store all your structured and unstructured data at any scale. In layman's terms, think of it as a massive, virtual 'lake' where data from every department can be 'poured into,' enabling interdepartmental collaboration.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/data-lake-dive-or-delay/Data-silos-limit-the-value-of-your-data-diagram.png" alt="Data Silos vs. Data Lake">
+<img src="{{ site.url }}{{ site.baseurl }}/images/data-lake-dilemma/Data-silos-limit-the-value-of-your-data-diagram.png" alt="Data Silos vs. Data Lake">
 <div style="text-align: center; margin-bottom: 2%;"><i>Diagram comparing Data Silos and Data Lakes <sup><a href="https://aws.amazon.com/blogs/storage/aws-reinvent-recap-break-down-data-silos-with-a-data-lake-on-amazon-s3/" target="_blank">[1: AWS]</a></sup></i></div>
 
 ## The Invisible Cost of Waiting 
