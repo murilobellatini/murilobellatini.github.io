@@ -57,7 +57,7 @@ The 3-4 year break-even window isn't a trivial detail; it's your strategic clock
 
 The variability in EBIT margin impact, from a nearly imperceptible 0.2% to a robust 9%, offers a dual lesson. It shows the room for upside, especially in areas like R&D, Sales, and Marketing, but also serves as a cautionary tale against complacency. Remember, these numbers aren't just statistics; they're projections that will be etched into quarterly reports and shareholder meetings.
 
-**Note to leaders**: McKinsey flags underestimated database costs as a silent budget killer. This isn't where you skimp; it’s where you fortify your investment strategy.
+> 💡 **Note to leaders**: McKinsey flags underestimated database costs as a silent budget killer. This isn't where you skimp; it’s where you fortify your investment strategy.
 
 The balance between investment and risk is a high-stakes game of chess, not checkers. You need a panoramic understanding of the intricate costs, an insightful foresight into your business's trajectory, and a crystal-clear outline of the tangible and intangible benefits.
 
